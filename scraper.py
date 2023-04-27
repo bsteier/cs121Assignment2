@@ -2,7 +2,9 @@ import re
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from collections import defaultdict
-
+import simHash
+import tokenizer
+import json
 
 _visitedLinks = defaultdict(int)
 
@@ -10,10 +12,10 @@ def scraper(url, resp):
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
     if urlparse(url) == urlparse("https://www.stat.uci.edu"):
-        with open("icsSubDomain.txt", "a") as ics:
+        with open("icsSubDomain.json", "a") as ics:
             for link in tba_links:
-                ics.write(link)
-                ics.write("\n")
+                ics.write(json.dumps({"url": link}) + "\n") # ics.write(link)
+                ics.flush() # ics.write("\n")
     return tba_links
 
 def extract_next_links(url, resp):
@@ -40,17 +42,35 @@ def extract_next_links(url, resp):
             fails.write("\n")
 
         return list()
-    
-    
+
+
   #  print("URL", urlparse(url)== urlparse("https://www.ics.uci.edu"))
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
 
     hyperlinks = soup.find_all("a", href=True) #finds all elements w/ an href
-    words = soup.find_all("p")
-   # for w in words:
-        #print(w.text)
-    #print(results.prettify())
+    words = soup.find_all(text=True)
 
+    with open("websitecontents.txt", "w") as text: #write text content onto a file
+        for w in words:
+            text.write(w.text)
+                
+    
+    hashCode = simHash.generate_Fingerprint(tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt")))
+
+    # CHECK SIMILARITY
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php}
+    for h in problemSites:
+        if simHash.calc_similarity(hashCode, h):
+            return list()
+        
+
+    with open("downloaded.txt", "a") as downloaded:
+        downloaded.write(url + '\n')
+        downloaded.write("\t" + hashCode + "\n")
+        #for w in words:
+         #   downloaded.write(w.text.strip())
+           
+        
 
     linksToAdd = list()
     for link in hyperlinks:
