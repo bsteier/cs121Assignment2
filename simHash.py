@@ -62,3 +62,4 @@ def calc_similarity(f1, f2) -> bool:
             similar_count += 1
     
     return (similar_count / HASH_SIZE) >= threshold
+

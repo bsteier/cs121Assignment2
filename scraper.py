@@ -11,6 +11,7 @@ _visitedLinks = defaultdict(int)
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
+
     if urlparse(url) == urlparse("https://www.stat.uci.edu"):
         with open("icsSubDomain.json", "a") as ics:
             for link in tba_links:
@@ -28,7 +29,6 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    parsed = urlparse(url)
     if resp.status != 200: # this means we didn't get the page
         print("u suck")
         print(url)
@@ -42,12 +42,24 @@ def extract_next_links(url, resp):
             fails.write("\n")
 
         return list()
-
+    
+    # CHECK SIMILARITY against problem sites
+    hashCode = getHash(resp)
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php}
+    for h in problemSites:
+        if simHash.calc_similarity(hashCode, h):
+            return list()
+    with open("downloaded.txt", "a") as downloaded:
+        downloaded.write(url + '\n')
+        downloaded.write("\t" + hashCode + "\n")
+    
+    parsed = urlparse(url)
 
   #  print("URL", urlparse(url)== urlparse("https://www.ics.uci.edu"))
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
 
     hyperlinks = soup.find_all("a", href=True) #finds all elements w/ an href
+
     words = soup.find_all(text=True)
 
     with open("websitecontents.txt", "w") as text: #write text content onto a file
@@ -55,18 +67,6 @@ def extract_next_links(url, resp):
             text.write(w.text)
                 
     
-    hashCode = simHash.generate_Fingerprint(tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt")))
-
-    # CHECK SIMILARITY
-    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php}
-    for h in problemSites:
-        if simHash.calc_similarity(hashCode, h):
-            return list()
-        
-
-    with open("downloaded.txt", "a") as downloaded:
-        downloaded.write(url + '\n')
-        downloaded.write("\t" + hashCode + "\n")
         #for w in words:
          #   downloaded.write(w.text.strip())
            
@@ -74,14 +74,14 @@ def extract_next_links(url, resp):
 
     linksToAdd = list()
     for link in hyperlinks:
-        if urlparse(link['href']) == urlparse(url) or link['href'] == "#" or link['href'].startswith("mailto"): # avoid adding duplicates or invalid hrefs
+        if urlparse(link['href']) == urlparse(url) or link['href'] in {"#", "/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
             continue
         if not bool(urlparse(link['href']).netloc): #not absolute
 
             print("NOT ABSOLUTE")
             print("current ", url)
             print(link['href'])
-            link2 = urljoin(parsed.geturl(), link['href'])     # convert relative URLs to absolute
+            link2 = urljoin(resp.url, link['href'], allow_fragments=False)     # convert relative URLs to absolute
             if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
                 print("new link", link2)
                 with open("fails2.txt", "a") as fails:
@@ -115,7 +115,7 @@ def is_valid(url):
                      + r"|\.informatics\.uci\.edu/|\.stat\.uci\.edu/$", url):
             return False  # using regex to see if a url contains one of these domain patterns
         return not re.match(
-            r".*\.(css|js|bmp|gif|jpe?g|ico"
+            r".*\.(r|css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
@@ -127,3 +127,14 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+
+def getHash(resp) -> str:
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+    words = soup.find_all(text=True)
+
+    with open("websitecontents.txt", "w") as text: #write text content onto a file
+        for w in words:
+            text.write(w.text)
+    hashCode = simHash.generate_Fingerprint(tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt")))
+    return hashCode
