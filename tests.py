@@ -74,5 +74,22 @@ class TestRelativeToAbsolute(unittest.TestCase):
         expected_link = r"https://www.ics.uci.edu/about/annualreport/index.php"
         self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
 
+    def test6(self):
+        url = r"http://www.ics.uci.edu/community/news/articles/view_article?id=66"
+        scraped = r"../index.php"
+
+        expected_link = r"http://www.ics.uci.edu/community/news/index.php"
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
+
+    def test7(self):
+        url = r"http://www.ics.uci.edu/grad/Course_updates"
+        scraped = r"funding/housing.php"
+        expected_link = r"http://www.ics.uci.edu/grad/funding/housing.php"
+
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
+
+
+
+
 if __name__ == "__main__":
     unittest.main()

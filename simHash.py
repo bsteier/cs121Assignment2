@@ -50,7 +50,7 @@ def generate_Fingerprint(token_Freq:dict):
 
 def calc_similarity(f1, f2) -> bool:
     """
-    threshold: 0.97
+    threshold: 0.93
     """
     threshold = 0.93
     

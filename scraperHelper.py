@@ -3,6 +3,7 @@ from urllib.parse import urlparse, urlunparse, urljoin
     urlparse: breaks a url into parts
     urlunparse: constructs parts of a URL into a full URL
 """
+
 def convertToAbsolute(url, link):
     """
     Takes in a url and a scraped link.
@@ -12,11 +13,14 @@ def convertToAbsolute(url, link):
     # path-relative: means it's relative to the current directory of the base URL
     if not link:
         return url
-    if link.startswith("/") or link[0].isalnum() and not link.endswith((".html", ".htm", ".php")):  
+    if not urlparse(link).scheme and urlparse("https://" + link).netloc:
+        return urlparse("https://" + link).netloc
+    
+    if link.startswith("/") or link[0].isalnum() and link.count("/"): #not link.endswith((".html", ".htm", ".php")):  
         return urljoin(url, link)
 
     parsed = urlparse(url)
-    if parsed.path and parsed.path.endswith((".html", ".htm", ".php")):
+    if parsed.path and (parsed.path.endswith((".html", ".htm", ".php"))) or parsed.query:  
         parts = parsed.path.split("/")
         parts = "/".join(parts[:-1])
         url = urlunparse((parsed.scheme, parsed.netloc,
@@ -44,21 +48,3 @@ def convertToAbsolute(url, link):
 
     return absoulteUrl
 
-
-"""
-    parsed = urlparse(url)
-    if not link:
-        return url
-    if link.startswith("../"): # ../ tells us we want to access the parent of the url
-        numBackDir = link.count("../")
-        if not parsed.path or numBackDir >= len(parsed.path.split("/")) or numBackDir == len(parsed.path.split("/")) - 1:
-            return urljoin(parsed.geturl(), link)
-        else:
-            updated_url = '/'.join(url.split('/')[:-1*(numBackDir)])
-            link = link[numBackDir*3:]
-            return updated_url + "/" + link
-    
-    if link.startswith("/") or link.endswith(".php") or link.startswith("."):
-        return urljoin(parsed.geturl(), link)  
-    return url + "/" + link
-"""

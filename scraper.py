@@ -50,8 +50,9 @@ def extract_next_links(url, resp):
     
     # CHECK SIMILARITY against problem sites
     hashCode = getHash(resp)
-    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'
-                    , '1000010100101000010010011001111001100001101110101110101001110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL//ugrad/policies/Add_Drop_ChangeOption}
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
+                    '1001110100110010010010001011111000100010100010000100001000000010'}  
+    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff}
     for h in problemSites:
         if simHash.calc_similarity(hashCode, h):
             return list()
@@ -73,15 +74,10 @@ def extract_next_links(url, resp):
     with open("websitecontents.txt", "w") as text: #write text content onto a file
         for w in words:
             text.write(w.text)
-                
-    
-        #for w in words:
-         #   downloaded.write(w.text.strip())
-           
-        
+
 
     linksToAdd = list()
-    for link in hyperlinks:
+    for link in set(hyperlinks):
         if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
             continue
         if not bool(urlparse(link['href']).netloc): #not absolute
@@ -98,11 +94,8 @@ def extract_next_links(url, resp):
         else:
             linksToAdd.append(link['href'])
             _visitedLinks[link['href']] += 1
-    
-   # print("URL", urlparse(url).netloc == urlparse("https://www.ics.uci.edu").netloc)
-        #print("RESPONSE", resp.raw_response.content)
 
-    return list(set(linksToAdd))    #!need a way to remove websites that have already been scraped
+    return list(set(linksToAdd))    #removes websites that are duplicates before sending to the frontier
 
 
 def is_valid(url):

@@ -1,20 +1,11 @@
 
 
-
-honors program @ the bren school of information and computer sciences
-
+undergraduate course listing @ the bren school of information and computer sciences
 
 
 
 
-
-
-
-
-
-
-
-Skip to main content
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
 
 
 
@@ -22,250 +13,116 @@ Skip to main content
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-HOME
 
 
 ABOUT
 
-
 About the School
-
-
 Dean's Welcome
-
-
 Facts and Figures
-
-
 Donald Bren Hall
-
-
 Visit the Bren School
-
-
 Equity & Diversity
-                            
-
-
 Contact Us
 
 
 
-
-DEPARTMENTS
-
+ DEPARTMENTS 
 
 Computer Science
-
-
 Informatics
-
-
 Statistics
 
 
 
-
-RESEARCH
-
+ RESEARCH 
 
 Research Areas
-
-
 Research Centers
-
-
 Research Highlights
-
 
 
 
 STUDENTS
 
-
-Graduate ▸
-
-
-Orientation
-
+Graduate ▸ 
 
 Prospective Students
-
-
 How to Apply
-
-
 Programs of Study
-
-
 Academic Year Plan
-
-
-Course Updates
-
-
-Forms And Policies
-
-
-Admissions FAQ
-
-
-Funding
-
-
-Housing
-
-
+Forms
+Policies
+Funding & Housing
 Computing Support
-
-
 Campus Resources
-
-
 Visit the Bren School
-
-
+Graduate Student Handbook
 Contact
 
 
-
-
-Undergraduate ▸
-
+Undergraduate ▸ 
 
 Contact
-
-
 Academic Advising
-
-
 Course Updates
-
-
 Academic Year Plan
-
-
 Petitions
-
-
 ICS Majors
-
-
 ICS Minors
-
-
 Policies: Academic Integrity
-
-
 Policies: Academic Standing
-
-
 Policies: Add, drop, & change options
-
-
 Policies: Coursework outside UCI
-
-
 Policies: Grade policy
-
-
 Policies: Laptop & computer use
-
-
 Policies: Withdrawal/Readmission
-
-
 Policies: CS 199 / IN4MATX 199 Courses
-
-
 Graduation
-
-
 ICS Student Life
-
-
 Upcoming Events
-
-
 Computing Support
-
-
 
 
 Scholarships & Fellowships
-
-
 Student Jobs & Internships
-
 
 
 
 PEOPLE
 
-
 Faculty
-
-
 Staff
-
-
 Graduate Students
-
 
 
 
 NEWS & EVENTS
 
-
 Newsroom
-
-
 Events
-
-
-Social Media
-
-
-Publications
-
+Press Releases
+Annual Reports
+Student Blogs
 
 
 
 GET INVOLVED
 
-
 Make a Gift
-                                
-
-
-
+Alumni
 Leadership Council
-
-
 Corporate Partners
-
-
 Sponsor Projects
-
-
 Product Development Competition
 
 
-Alumni
+
+
+
+
+
+Bren school home / Undergraduate / Courses
 
 
 
@@ -283,6 +140,92 @@ Alumni
 
 
 
+        Course Listing for 2016-17
+    
+
+Note:  This is a TENTATIVE schedule.  The course listings shown here are 
+        neither guaranteed, nor considered "final". Department Chairs may provide updated 
+        information regarding course offerings or faculty assignments throughout the year. 
+        Be sure to check this list regularly for new or revised information.
+
+
+Filters
+
+
+Year:
+
+2022-23
+2021-22
+2020-21
+2019-20
+2018-19
+2017-18
+2016-17
+2015-16
+2014-15
+2013-14
+2012-13
+2011-12
+2010-11
+2009-10
+2008-09
+
+
+
+Level:
+
+ALL
+Graduate
+Lower-Division
+Undergraduate
+Upper-Division
+
+
+
+Department:
+
+ALL
+CS
+CSE
+ECE
+EDUC
+EECS
+GDM
+ICS
+INF
+MATH
+NetSys
+SE
+STATS
+US
+
+
+
+Core Classes for:
+
+ALL
+
+Biomedical Computing
+Business Information Management
+Computer Game Science
+Computer Science
+Computer Science and Engineering
+CS-Algorithms
+CS-Architecture and Embedded Systems
+CS-Bioinformatics
+CS-Information
+CS-Intelligent Systems
+CS-Networked Systems
+CS-Systems and Software
+CS-Visual Computing
+Informatics
+Information and Computer Science
+
+
+Computer Science
+Informatics
+Networked Systems
+Statistics
 
 
 
@@ -295,163 +238,384 @@ Alumni
 
 
 
-Bren school home / Undergraduate / ICS Honors Program
 
 
-ICS Honors Program
-
-At the Bren School, highly ambitious, talented undergraduate students succeed in preparing themselves for complex and exciting careers. Education extends from the classroom to the laboratory, studio and library; undergraduate students have amazing opportunities to join faculty in research and have their work recognized in symposia and in print before graduating with a bachelor's degree. The ICS Honors Program, in particular, provides an opportunity for students enrolled in a Bren School major to make the most of their undergraduate career at UC Irvine.
-
-Program Overview
-
-Step 1: Course Requirements
-Step 2: Honors Seminar (ICS H197)
-Step 3: Finding A Faculty Advisor And Taking CS H198
-Step 4: Start Your Research
-Step 5: Completing The Program
-
-
-Admissions Requirements and Application
-Forms
-Additional Resources
-
-Student Testimonials
-Graduate School Resources
-Other Research And Honors Opportunities
-Sample Theses
-Media
-
-
-Contact Us
+Course
+Title
+description
+Fall 2016
+Winter 2017 
+Spring 2017 
+Summer 2017 
 
 
 
 
 
-More Undergraduate
-
-Contact
-News and Updates
-Academic advising
-Course updates
-Academic year plan
-ICS majors
-
-GDIM FAQ page
-Double major
-2nd baccalaureate
 
 
-ICS minors
-Newly Admitted to ICS
-Petitions & Forms
-Policies
-
-Academic honesty
-Academic standing
-Add, drop, & change options
-Change of Major
-Concurrent Enrollment
-Coursework outside UCI
-CS 199 / IN4MATX 199
-Grade policy
-ICS Credit by Exam
-Laptop & computer use
-Withdrawal/Readmission
-ICS 192 Enrollment/CPT&OPT
 
 
-Graduation
-ICS student life
-ICS Honors Program
+
+
+
+
+
+
+
+                STATS 200A            
+
+
+
+STATS 200A
+
+
+                   Basics of probability theory, random variables and basic transformations, univariate distributions - discrete and continuous, multivariate distributions.  Prerequisites: Statistics 120A-B-C or equivalent or consent of instructor.            
+Yaming Yu  
+ 
+ 
+ 
+
+
+
+                STATS 200B            
+
+
+
+STATS 200B
+
+
+                   Random samples, transformations, limit laws, normal distribution theory, introduction to stochastic processes, data reduction, point estimation (maximum likelihood).  Prerequisites: Statistics 120A-B-C or equivalent or consent of instructor.            
+ 
+Babak Shahbaba  
+ 
+ 
+
+
+
+                STATS 200C            
+
+
+
+STATS 200C
+
+
+                   Interval estimation, hypothesis testing, decision theory and Bayesian inference, basic linear model theory.  Prerequisites: Statistics 120A-B-C or equivalent or consent of instructor.            
+ 
+ 
+Zhaoxia Yu  
+ 
+
+
+
+                STATS 201            
+
+
+
+STATS 201
+
+
+                   Introduction to statistical methods for analyzing data from experiments and surveys. Methods covered include two-sample procedures, analysis of variance, simple and multiple linear regression. May not be taken for graduate credit by Statistics graduate students. Prerequisite: knowledge of basic statistics (at level of Statistics 7). Concurrent with Statistics 110.            
+Sevan Gregory Gulesserian Tsung-Hua Lin  
+ 
+ 
+ 
+
+
+
+                STATS 202            
+
+
+
+STATS 202
+
+
+                   Introduction to statistical methods for analyzing data from surveys or experiments. Emphasizes application and understanding of methods for categorical data including contingency tables, logistic and Poisson regression, loglinear models. May not be taken for graduate credit by Statistics graduate students. Prerequisite: Statistics 201 or equivalent. Concurrent with Statistics 111.            
+ 
+Sevan Gregory Gulesserian Hernando  Ombao  
+ 
+ 
+
+
+
+                STATS 203            
+
+
+
+STATS 203
+
+
+                   Introduction to statistical methods for analyzing longitudinal data from experiments and cohort studies. Topics covered include survival methods for censored time-to-event data, linear mixed models, non-linear mixed effects models, and generalized estimating equations. May not be taken for graduate credit by Statistics graduate students. Prerequisite: Statistics 202 or equivalent. Concurrent with Statistics 112.            
+ 
+ 
+ TBD  
+ 
+
+
+
+                STATS 205            
+
+
+
+STATS 205
+
+
+                   Basic Bayesian concepts and methods with emphasis on data analysis. Special emphasis on specification of prior distributions. Development for one-two samples and on to binary, Poisson, and linear regression. Analyses performed using free OpenBugs software.            
+ 
+Michele Guindani  
+ 
+ 
+
+
+
+                STATS 210            
+
+
+
+STATS 210
+
+
+                   Statistical methods for analyzing data from surveys and experiments. Topics include randomization and model-based inference, two-sample methods, analysis of variance, linear regression and model diagnostics. Prerequisite: knowledge of basic statistics (at the level of Statistics 7), calculus, linear algebra.            
+Hernando  Ombao  
+ 
+ 
+ 
+
+
+
+                STATS 211            
+
+
+
+STATS 211
+
+
+                   Development of the theory and application of generalized linear models. Topics include likelihood estimation and asymptotic distributional theory for exponential families, quasi-likelihood and mixed model development. Emphasizes methodological development and application to real scientific problems.            
+ 
+Daniel Gillen  
+ 
+ 
+
+
+
+                STATS 212            
+
+
+
+STATS 212
+
+
+                   Development and application of statistical methods for analyzing corrected data. Topics covered include repeated measures ANOVA, linear mixed models, non-linear mixed effects models, and generalized estimating equations. Emphasizes both theoretical development and application of the presented methodology.            
+ 
+ 
+Daniel Gillen  
+ 
+
+
+
+                STATS 220A            
+
+
+
+STATS 220A
+
+
+                   Advanced topics in probability and statistical inference including measure theoretic probability, large sample theory, decision theory, resampling and Monte Carlo methods, nonparametric methods. Prerequisites: Statistics 200A-B-C.            
+ 
+Weining Shen  
+ 
+ 
+
+
+
+                STATS 220B            
+
+
+
+STATS 220B
+
+
+                   Advanced topics in probability and statistical inference including measure theoretic probability, large sample theory, decision theory, resampling and Monte Carlo methods, nonparametric methods. Prerequisites: Statistics 200A-B-C.            
+ 
+ 
+Weining Shen  
+ 
+
+
+
+                STATS 225            
+
+
+
+STATS 225
+
+
+                   Introduction to the Bayesian approach to statistical inference. Topics include univariate and multivariate models, choice of prior distributions, hierarchical models, computation including Markov chain Monte Carlo, model checking, and model selection. Prerequisites: two quarters of upper-division or graduate training in probability and statistics, or consent of instructor.            
+ 
+ 
+Yaming Yu  
+ 
+
+
+
+                STATS 230            
+
+
+
+STATS 230
+
+
+                   Numerical computations and algorithms with applications in statistics. Topics include optimization methods including the EM algorithm, random number generation and simulation, Markov chain simulation tools, and numerical integration. Prerequisites: two quarters of upper-division or graduate training in probability and statistics. Statistics 230 and CS 206 may not both be taken for credit.            
+ 
+Babak Shahbaba  
+ 
+ 
+
+
+
+                STATS 240            
+
+
+
+STATS 240
+
+
+                   Theory and application of multivariate statistical methods. Topics include: likelihood and Bayesian inference for the multivariate normal model, visualization of multivariate data, data reduction techniques, cluster analysis, and multivariate statistical models. Prerequisites: Statistics 200A-B-C and Mathematics 121A.            
+Zhaoxia Yu  
+ 
+ 
+ 
+
+
+
+                STATS 245            
+
+
+
+STATS 245
+
+
+                   Statistical models for analysis of time series from time and frequency domain perspectives. Emphasizes theory and application of time series data analysis methods. Topics include ARMA/ARIMA models, model identification and estimation, linear operators, Fourier analysis, spectral estimation, state space models, Kalman filter. Prerequisites: Statistics 200A-B-C.            
+ 
+Michele Guindani  
+ 
+ 
+
+
+
+                STATS 250            
+
+
+
+STATS 250
+
+
+                   Statistical methods commonly used to analyze data arising from clinical studies. Topics include analysis of observational studies and randomized clinical trials, techniques in the analysis of survival and longitudinal data, approaches to handling missing data, meta-analysis, nonparametric methods. Prerequisite: Statistics 210.            
+ 
+ 
+Tsung-Hua Lin  
+ 
+
+
+
+                STATS 275            
+
+
+
+STATS 275
+
+
+                   Training in collaborative research and practical application of statistics. Emphasis on effective communication as it relates to identifying scientific objectives, formulating a statistical analysis plan, choice of statistical methods, and interpretation of results and their limitations to non-statisticians.             
+Hernando  Ombao  
+ 
+ 
+ 
+
+
+
+                STATS 280            
+
+
+
+STATS 280
+
+
+                   Periodic seminar series covering topics of current research in statistics and its application. Prerequisites: graduate standing and consent of instructor. Satisfactory/Unsatisfactory only. May be repeated for credit as topics vary.             
+Hernando  Ombao  
+Babak Shahbaba  
+Yaming Yu  
+ 
+
+
+
+                STATS 281A            
+
+
+
+STATS 281A
+
+
+                   Introduction to basic principles of probability and statistical inference. Axiomatic definition of probability, random variables, probability distributions, expectation.            
+Yaming Yu  
+ 
+ 
+ 
+
+
+
+                STATS 281B            
+
+
+
+STATS 281B
+
+
+                   Introduction to basic principles of probability and statistical inference. Point estimation, interval estimating, and testing hypotheses, Bayesian approaches to inference.            
+ 
+Weining Shen  
+ 
+ 
+
+
+
+                STATS 281C            
+
+
+
+STATS 281C
+
+
+                   Introduction to basic principles of probability and statistical inference. Contingency table analysis, linear regression, analysis of variance, model checking.            
+ 
+ 
+Zhaoxia Yu  
+ 
+
+
+
+
+
+
+
+
+Quick Links 
+- select a page -
 Computing support
-Title IX Resources
-
-
-
-
-
-
-
-
-
-Tweets by UCIbrenICS 
-
-View Social Media
-
-
-
-
-
-
-
-
-
-
-
-
-                        Donald Bren School of Information and Computer Sciences
-                		University of California, Irvine
-    					6210 Donald Bren Hall
-    					Irvine, CA 92697-3425
-                    
-
-
-
-  
-  
-  
-  
-  
- 
-
-
-
-UCI Homepage
-UCI Directory
-Faculty & Staff
+CS Seminar Series
 Employment
-ICS Intranet
-Research Development
-Kay Family Foundation Lab
 Facilities
+Find faculty and staff
+Giving to the Bren School
+Graduate degrees
+Kay Family Foundation Lab
+Project ICS
+Prospective undergraduates
+Safety procedures
+Undergraduate degrees
 
+       
 
-
-
-News
-Events
-Map & Directions
-Accessibility Statement
-Safety Procedures
-Privacy Policy
-Coronavirus Resources
-
-
-
-
-Apply
-Contact
-Gift 
-
-
-
-
-©  UCI Donald Bren School of Information & Computer Sciences
-
-
-
-
-
-
-➤
-
-
-
-
-
-
-
+Copyright Inquiries | UCI Directory | Intranet
 
 
 
