@@ -1,0 +1,20 @@
+http://www.informatics.uci.edu/explore/faculty-profiles/bonnie-ruberg
+404
+None
+
+http://luci.ics.uci.edu/pages/Students/AmandaCullen/AmandaCullen.html
+404
+None
+
+http://hana.ics.uci.edu/Gary_vita
+601
+Download Exception HTTPConnectionPool(host='hana.ics.uci.edu', port=80): Max retries exceeded with url: /Gary_vita (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f67362f6c20>: Failed to establish a new connection: [Errno -2] Name or service not known')).
+
+http://http://www.informatics.uci.edu
+604
+Domain must be within spec.
+
+http://sdcl.ics.uci.edu/research/past-projects/code-topics
+404
+None
+

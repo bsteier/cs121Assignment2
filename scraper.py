@@ -51,8 +51,9 @@ def extract_next_links(url, resp):
     # CHECK SIMILARITY against problem sites
     hashCode = getHash(resp)
     problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
-                    '1001110100110010010010001011111000100010100010000100001000000010'}  
-    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff}
+                    '1001110100110010010010001011111000100010100010000100001000000010',
+                    '1000000110010011001110101011101101101000001000100010000000100000'}  
+    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments}
     for h in problemSites:
         if simHash.calc_similarity(hashCode, h):
             return list()
@@ -109,6 +110,10 @@ def is_valid(url):
         if not re.search(r"\.ics\.uci\.edu/|\.cs\.uci\.edu/"
                      + r"|\.informatics\.uci\.edu/|\.stat\.uci\.edu/$", url):
             return False  # using regex to see if a url contains one of these domain patterns
+        if parsed.fragment: 
+            return False
+        if re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
+            return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -117,7 +122,8 @@ def is_valid(url):
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz"
+            + r"|javascript:void(0))$|&do=media", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)

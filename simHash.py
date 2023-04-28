@@ -56,10 +56,10 @@ def calc_similarity(f1, f2) -> bool:
     
     assert len(f1) == len(f2), "Fingerprints are not same length"
 
+
     similar_count = 0
     for i in range(HASH_SIZE):
         if f1[i] == f2[i]:
             similar_count += 1
-    
     return (similar_count / HASH_SIZE) >= threshold
 
