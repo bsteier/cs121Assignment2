@@ -54,19 +54,6 @@ def extract_next_links(url, resp):
 
         return list()
     
-    # CHECK SIMILARITY against problem sites
-    hashCode = getHash(resp)
-    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
-                    '1001110100110010010010001011111000100010100010000100001000000010',
-                    '1000000110010011001110101011101101101000001000100010000000100000'}  
-    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments}
-    for h in problemSites:
-        if simHash.calc_similarity(hashCode, h):
-            return list()
-    with open("downloaded.txt", "a") as downloaded:
-        downloaded.write(url + '\n')
-        downloaded.write("\t" + hashCode + "\n")
-        downloaded.write("\tsize " + str(len(resp.raw_response.content)) + "\n")
         
     
     parsed = urlparse(url)
@@ -82,6 +69,23 @@ def extract_next_links(url, resp):
         for w in words:
             text.write(w.text)
 
+    token_freq = tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt"))
+    
+    # CHECK SIMILARITY against problem sites
+    hashCode = getHash(resp, token_freq)
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
+                    '1001110100110010010010001011111000100010100010000100001000000010',
+                    '1000000110010011001110101011101101101000001000100010000000100000'}  
+    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments}
+    for h in problemSites:
+        if simHash.calc_similarity(hashCode, h):
+            return list()
+    scraperHelper.get_longest_page(resp.url, token_freq)    
+
+    with open("downloaded.txt", "a") as downloaded:
+        downloaded.write(url + '\n')
+        downloaded.write("\t" + hashCode + "\n")
+        downloaded.write("\tsize " + str(len(resp.raw_response.content)) + "\n")
 
     linksToAdd = list()
     for link in set(hyperlinks):
@@ -90,11 +94,6 @@ def extract_next_links(url, resp):
         if not bool(urlparse(link['href']).netloc): #not absolute
             link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
             if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
-                with open("fails2.txt", "a") as fails:
-                    fails.write("CURRENT: " + str(url) + "\n")
-                    fails.write(link['href'] + '\n')
-                    fails.write(link2 + '\n')
-                    fails.write("\n")
 
                 linksToAdd.append(link2)
                 _visitedLinks[link2] += 1
@@ -136,13 +135,18 @@ def is_valid(url):
         raise
 
 
-def getHash(resp) -> str:
+def getHash(resp, tokens) -> str:
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     words = soup.find_all(text=True)
 
-    with open("websitecontents.txt", "w") as text: #write text content onto a file
-        for w in words:
-            text.write(w.text)
-    hashCode = simHash.generate_Fingerprint(tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt")))
+    hashCode = simHash.generate_Fingerprint(tokens)
     return hashCode
 
+
+"""
+                with open("fails2.txt", "a") as fails:
+                    fails.write("CURRENT: " + str(url) + "\n")
+                    fails.write(link['href'] + '\n')
+                    fails.write(link2 + '\n')
+                    fails.write("\n")
+"""

@@ -57,3 +57,17 @@ def convertToAbsolute(url, link):
 
     return absoulteUrl
 
+
+def get_longest_page(url, token_freq:dict):
+    total_words = sum(token_freq.values())
+    with open("longest.txt", "r") as u:
+        u.seek(0)
+        if u.readline() == '':
+            count = 0
+        else:
+            u.seek(0)
+            count = int(u.readline())
+        if total_words > count:
+            with open("longest.txt", "w") as v:
+                v.write(str(total_words) + "\n")
+                v.write(url)
