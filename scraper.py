@@ -6,14 +6,32 @@ import simHash
 import tokenizer
 import json
 import scraperHelper
+import os
+import ScraperManager
 
 _visitedLinks = defaultdict(int)
+data = ScraperManager.CurrentData()
 
 def scraper(url, resp):
-    if resp.status == 200:
-        if resp.raw_response.content and len(resp.raw_response.content) > 5000000:  #don't scrape a website that's too large
-            return list()
-        
+    checker = ScraperManager.ResponseValidity(resp)
+    validity = checker.isValid()
+    if type(validity) == str and is_valid(validity):
+        return [validity]  # if it's a redirect, return the redirected website
+    elif not validity:
+        with open("fails.txt", "a") as fails:
+            fails.write(str(url) + "\n")
+            fails.write(str(resp.status) + "\n")
+            fails.write(str(resp.error) + "\n")
+            fails.write("\n")
+        return list()
+    
+    
+    curUrl = ScraperManager.Manager(url, resp)
+    if data.compareHashSimilarity(curUrl.hashCode):
+        return list()
+    
+    
+
     with open("unique.txt", "r") as u:
         count = int(u.read())
         count += 1
@@ -23,11 +41,7 @@ def scraper(url, resp):
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
 
-    if urlparse(url) == urlparse("https://www.stat.uci.edu"):
-        with open("icsSubDomain.json", "a") as ics:
-            for link in tba_links:
-                ics.write(json.dumps({"url": link}) + "\n") # ics.write(link)
-                ics.flush() # ics.write("\n")
+    curUrl.save_data(len(tba_links), curUrl.get_total_word_count())
     return tba_links
 
 def extract_next_links(url, resp):
@@ -46,15 +60,10 @@ def extract_next_links(url, resp):
         print(resp.error)
         print()
 
-        with open("fails.txt", "a") as fails:
-            fails.write(str(url) + "\n")
-            fails.write(str(resp.status) + "\n")
-            fails.write(str(resp.error) + "\n")
-            fails.write("\n")
-
         return list()
     
-        
+    if not resp.raw_response:
+        return list()   
     
     parsed = urlparse(url)
 
@@ -68,24 +77,6 @@ def extract_next_links(url, resp):
     with open("websitecontents.txt", "w") as text: #write text content onto a file
         for w in words:
             text.write(w.text)
-
-    token_freq = tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt"))
-    
-    # CHECK SIMILARITY against problem sites
-    hashCode = getHash(resp, token_freq)
-    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
-                    '1001110100110010010010001011111000100010100010000100001000000010',
-                    '1000000110010011001110101011101101101000001000100010000000100000'}  
-    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments}
-    for h in problemSites:
-        if simHash.calc_similarity(hashCode, h):
-            return list()
-    scraperHelper.get_longest_page(resp.url, token_freq)    
-
-    with open("downloaded.txt", "a") as downloaded:
-        downloaded.write(url + '\n')
-        downloaded.write("\t" + hashCode + "\n")
-        downloaded.write("\tsize " + str(len(resp.raw_response.content)) + "\n")
 
     linksToAdd = list()
     for link in set(hyperlinks):
@@ -110,6 +101,10 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
+        #print(parsed.geturl())
+        avoidUrls = {r"www.ics.uci.edu/~ziv/ooad/intro_to_se/", r"www.ics.uci.edu/Arcadia/Teamware/docs", r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
+        if any(u in url for u in avoidUrls):
+            return False
         if parsed.scheme not in set(["http", "https"]):
             return False
         if not re.search(r"\.ics\.uci\.edu/|\.cs\.uci\.edu/"
@@ -117,7 +112,11 @@ def is_valid(url):
             return False  # using regex to see if a url contains one of these domain patterns
         if parsed.fragment: 
             return False
-        if re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
+        if url.lower().count("&do=media") and url.lower().count("doku.php") or url.lower().endswith("javascript:void(0)"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
+            return False
+        if url.count(".php") > 1 or url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"):
+            return False
+        if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):
             return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"
@@ -128,7 +127,7 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz"
-            + r"|javascript:void(0))$|&do=media|apk", parsed.path.lower())
+            + r"|javascript:void(0))$|sql|apk|war|ma", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
@@ -149,4 +148,29 @@ def getHash(resp, tokens) -> str:
                     fails.write(link['href'] + '\n')
                     fails.write(link2 + '\n')
                     fails.write("\n")
+
+    # CHECK SIMILARITY against problem sites
+    hashCode = getHash(resp, token_freq)
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
+                    '1001110100110010010010001011111000100010100010000100001000000010',
+                    '1000000110010011001110101011101101101000001000100010000000100000',
+                    '1001000100110010011100111000111011100001111100001011010000110000',
+                    '1101000100111110010010111110011011100001101110001010110000100000'}  
+    # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments, 
+    # https://melissamazmanian.com/}
+    for h in problemSites:
+        if simHash.calc_similarity(hashCode, h):
+            return list()
+    scraperHelper.get_longest_page(resp.url, token_freq)    
+
+    with open("downloaded.txt", "a") as downloaded:
+        downloaded.write(url + '\n')
+        downloaded.write("\t" + hashCode + "\n")
+        downloaded.write("\tsize " + str(len(resp.raw_response.content)) + "\n")
+
+    if urlparse(url) == urlparse("https://www.stat.uci.edu"):
+        with open("icsSubDomain.json", "a") as ics:
+            for link in tba_links:
+                ics.write(json.dumps({"url": link}) + "\n") # ics.write(link)
+                ics.flush() # ics.write("\n")
 """

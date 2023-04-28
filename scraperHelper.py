@@ -3,6 +3,7 @@ from urllib.parse import urlparse, urlunparse, urljoin
     urlparse: breaks a url into parts
     urlunparse: constructs parts of a URL into a full URL
 """
+import simHash
 
 def convertToAbsolute(url, link):
     """

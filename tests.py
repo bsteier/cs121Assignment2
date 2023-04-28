@@ -2,8 +2,19 @@ import unittest
 import tokenizer
 import simHash
 import scraperHelper
+import scraper
 
 from pathlib import Path
+
+class TestValidity(unittest.TestCase):
+    def test1(self):
+        p1 = "https://swiki.ics.uci.edu/doku.php/announce:winter-2019?tab_details=view&do=media&tab_files=search&image=projects%3Anotice_power_shutdown_rev_0422021.png&ns=wiki"
+
+        self.assertFalse(scraper.is_valid(p1))
+
+    def test2(self):
+        p1 = r"https://isg.ics.uci.edu/event/speaker-david-lomet-microsoft-research-cost-performance-in-modern-data-stores-how-data-caching-systems-succeed/javascript:void(0)"
+        self.assertFalse(scraper.is_valid(p1))
 
 class TestSimilarity(unittest.TestCase):
     def test_simpleFiles(self):
