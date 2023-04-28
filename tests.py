@@ -1,6 +1,7 @@
 import unittest
 import tokenizer
 import simHash
+import scraperHelper
 
 from pathlib import Path
 
@@ -31,6 +32,36 @@ class TestSimilarity(unittest.TestCase):
         f1 = '1001000100110000001110111000111001100011011110011010011101111100'  # https://www.stat.uci.edu
         f2 = '1011000100111110001110111001111101100001011110001011010001110000'  # https://statconsulting.ics.uci.edu
         self.assertFalse(simHash.calc_similarity(f1, f2))
+
+class TestRelativeToAbsolute(unittest.TestCase):
+    def test1(self):
+        url = r'https://www.ics.uci.edu/grad/policies'
+        scraped = r'../../about/visit/index.php'
+
+        expected_link = r'https://www.ics.uci.edu/about/visit/index.php'
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
     
+    def test2(self):
+        url = r'https://www.ics.uci.edu/grad/policies'
+        scraped = r'../resources.php'
+
+        expected_link = r'https://www.ics.uci.edu/grad/resources.php'
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
+
+    def test3(self):
+        url = r'https://www.ics.uci.edu/grad/policies'
+        scraped = r'../../../computing/account/new.php'
+
+        expected_link = r'https://www.ics.uci.edu/computing/account/new.php'
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
+
+    def test4(self):
+        url = r'https://www.ics.uci.edu/employment'
+        scraped = r'employ_faculty.php'
+
+        expected_link = r'https://www.ics.uci.edu/employment/employ_faculty.php'
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -5,10 +5,15 @@ from collections import defaultdict
 import simHash
 import tokenizer
 import json
+import scraperHelper
 
 _visitedLinks = defaultdict(int)
 
 def scraper(url, resp):
+    if resp.status == 200:
+        if len(resp.raw_response.content) > 5000000:  #don't scrape a website that's too large
+            return list()
+    
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
 
@@ -52,6 +57,8 @@ def extract_next_links(url, resp):
     with open("downloaded.txt", "a") as downloaded:
         downloaded.write(url + '\n')
         downloaded.write("\t" + hashCode + "\n")
+        downloaded.write("\tsize " + str(len(resp.raw_response.content)) + "\n")
+        
     
     parsed = urlparse(url)
 
@@ -74,14 +81,14 @@ def extract_next_links(url, resp):
 
     linksToAdd = list()
     for link in hyperlinks:
-        if urlparse(link['href']) == urlparse(url) or link['href'] in {"#", "/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
+        if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
             continue
         if not bool(urlparse(link['href']).netloc): #not absolute
 
             print("NOT ABSOLUTE")
             print("current ", url)
             print(link['href'])
-            link2 = urljoin(resp.url, link['href'], allow_fragments=False)     # convert relative URLs to absolute
+            link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
             if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
                 print("new link", link2)
                 with open("fails2.txt", "a") as fails:
@@ -100,7 +107,7 @@ def extract_next_links(url, resp):
    # print("URL", urlparse(url).netloc == urlparse("https://www.ics.uci.edu").netloc)
         #print("RESPONSE", resp.raw_response.content)
 
-    return linksToAdd    #!need a way to remove websites that have already been scraped
+    return list(set(linksToAdd))    #!need a way to remove websites that have already been scraped
 
 
 def is_valid(url):
@@ -138,3 +145,4 @@ def getHash(resp) -> str:
             text.write(w.text)
     hashCode = simHash.generate_Fingerprint(tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt")))
     return hashCode
+
