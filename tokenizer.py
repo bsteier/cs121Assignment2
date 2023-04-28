@@ -35,9 +35,15 @@ def tokenize(filepath: Path) -> list[str]:
                     try:
                         if ord(potential_char) in range(ord('a'), ord('z') +1) or ord(potential_char) in range(ord('A'), ord('Z') +1) or ord(potential_char) in range(ord('0'), ord('9') +1):
                             token_to_add += potential_char
+                        elif potential_char == "'": # apostropohe handling
+                            if token_to_add:
+                                token_to_add += potential_char
                         else: #when we reach a character that isn't alphanumeric
                             if token_to_add:
-                                tokens.append(token_to_add)
+                                if token_to_add.endswith("'"):
+                                    tokens.append(token_to_add[:-1])
+                                else:
+                                    tokens.append(token_to_add)
                                 token_to_add = ""
                     except UnicodeDecodeError:
                         print("invalid character")

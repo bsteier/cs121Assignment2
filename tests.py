@@ -6,6 +6,13 @@ import scraper
 
 from pathlib import Path
 
+class TestTokenize(unittest.TestCase):
+    def test1(self):
+        p1 = Path(r"TestFiles/c.txt")
+        tokens = tokenizer.computeWordFrequencies(tokenizer.tokenize(p1))
+
+        self.assertTrue("alfred's" in tokens.keys())
+
 class TestValidity(unittest.TestCase):
     def test1(self):
         p1 = "https://swiki.ics.uci.edu/doku.php/announce:winter-2019?tab_details=view&do=media&tab_files=search&image=projects%3Anotice_power_shutdown_rev_0422021.png&ns=wiki"
