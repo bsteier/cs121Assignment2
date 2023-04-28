@@ -11,9 +11,15 @@ _visitedLinks = defaultdict(int)
 
 def scraper(url, resp):
     if resp.status == 200:
-        if len(resp.raw_response.content) > 5000000:  #don't scrape a website that's too large
+        if resp.raw_response.content and len(resp.raw_response.content) > 5000000:  #don't scrape a website that's too large
             return list()
-    
+        
+    with open("unique.txt", "r") as u:
+        count = int(u.read())
+        count += 1
+    with open("unique.txt", "w") as u:
+        u.write(str(count))
+
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
 
@@ -123,7 +129,7 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz"
-            + r"|javascript:void(0))$|&do=media", parsed.path.lower())
+            + r"|javascript:void(0))$|&do=media|apk", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)

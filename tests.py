@@ -96,7 +96,10 @@ class TestRelativeToAbsolute(unittest.TestCase):
 
         self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
 
-
+    def test90(self):
+        url = r"https://www.ics.uci.edu/~seal/projects/cobweb/index.html"
+        scraped = r"./artifacts.html"
+        expected_link = r"https://www.ics.uci.edu/~seal/projects/cobweb/artifacts.html"
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,1856 +1,1368 @@
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=backlink
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=backlink
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=login&sectok=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=login&sectok=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=media&ns=policies
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=media&ns=policies
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/feed.php
-https://swiki.ics.uci.edu/feed.php
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=revisions
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=revisions
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/start
-https://swiki.ics.uci.edu/doku.php/start
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?image=virtual_environments%3Ajupyterhub%3Avscode.jpg&tab_details=view&do=media&tab_files=files&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?image=virtual_environments%3Ajupyterhub%3Avscode.jpg&tab_details=view&do=media&tab_files=files&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=recent
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=recent
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?do=index
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=index
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=backlink
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=backlink
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=login&sectok=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=login&sectok=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=media&ns=policies
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=media&ns=policies
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/feed.php
-https://swiki.ics.uci.edu/feed.php
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg?t=1561761999&w=500&h=274&tok=486643
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg?t=1561761999&w=500&h=274&tok=486643
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=revisions
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=revisions
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/start
-https://swiki.ics.uci.edu/doku.php/start
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/virtual_environments:jupyterhub
-https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=recent
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=recent
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=index
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=index
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=backlink
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=backlink
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=login&sectok=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=login&sectok=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=media&ns=policies
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=media&ns=policies
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/feed.php
-https://swiki.ics.uci.edu/feed.php
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=revisions
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=revisions
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/start
-https://swiki.ics.uci.edu/doku.php/start
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?image=virtual_environments%3Ajupyterhub%3Avscode.jpg&tab_details=view&do=media&tab_files=files&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?image=virtual_environments%3Ajupyterhub%3Avscode.jpg&tab_details=view&do=media&tab_files=files&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=recent
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=recent
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=index
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=index
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=files&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=history&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=icsdc&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=backlink
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=backlink
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=login&sectok=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=login&sectok=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=services&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=linux&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=media&ns=policies
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=media&ns=policies
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=hardware&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=courses&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=requesttracker&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/feed.php
-https://swiki.ics.uci.edu/feed.php
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg?t=1561761999&w=500&h=274&tok=486643
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg?t=1561761999&w=500&h=274&tok=486643
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=history&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=wiki&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=revisions
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=revisions
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=backups&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/start
-https://swiki.ics.uci.edu/doku.php/start
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=projects&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=commands&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/virtual_environments:jupyterhub
-https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=recent
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=recent
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=index
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=index
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=search&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=view&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-https://swiki.ics.uci.edu/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=backlink
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=backlink
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=upload&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=login&sectok=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=login&sectok=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=security&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=virtual_environments&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?do=media&ns=policies
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?do=media&ns=policies
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=view&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=software&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=group&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=windows&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=accounts&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-https://swiki.ics.uci.edu/doku.php/policies:sudoers?ns=labs&tab_files=files&do=media&tab_details=edit&image=virtual_environments%3Ajupyterhub%3Avscode.jpg
-
-CURRENT: https://swiki.ics.uci.edu/doku.php/policies:sudoers?tab_details=edit&do=media&tab_files=search&image=virtual_environments%3Ajupyterhub%3Avscode.jpg&ns=wiki
-/feed.php
-https://swiki.ics.uci.edu/feed.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_CSE Major.pdf
-2022_CSE Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/funding/index
-http://www.ics.uci.edu/grad/funding/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-Minors.php
-Minors.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_CSE Major.pdf
-2022_CSE Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/admissions/index
-http://www.ics.uci.edu/grad/admissions/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/involved/
-http://www.ics.uci.edu/involved/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Computer-Science-and-Engineering-2021.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/about_contact.php
-http://www.ics.uci.edu/about/about_contact.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Software-Engineering.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../QA_Graduation.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/sao/SAO_Events.php
-http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/community/news/
-http://www.ics.uci.edu/community/news/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/Concurrent_Enrollment.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_INF Major.pdf
-2022_INF Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/search/index.php
-http://www.ics.uci.edu/about/search/index.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../resources/index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/admissions/index-orientationbackupOct12
-http://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../../../computing/account/new.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Grade_Options.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_CS Major.pdf
-2022_CS Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Add_Drop_ChangeOption.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/involved/corporate_partner
-http://www.ics.uci.edu/involved/corporate_partner
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../QA_Petitions.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/about_deanmsg.php
-http://www.ics.uci.edu/about/about_deanmsg.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/faculty/
-http://www.ics.uci.edu/faculty/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../honors/index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/visit/index.php
-http://www.ics.uci.edu/about/visit/index.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Course_Outside_UCI.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Withdrawal_Readmission.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Course_Outside_UCI
-http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/faculty/highlights/
-http://www.ics.uci.edu/faculty/highlights/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Computer-Science.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-degree_se.php
-degree_se.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/sao/index
-http://www.ics.uci.edu/ugrad/sao/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/admissions_faq/index
-http://www.ics.uci.edu/grad/admissions_faq/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/brenhall/index.php
-http://www.ics.uci.edu/about/brenhall/index.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /about/
 http://www.ics.uci.edu/about/
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Add_Drop_ChangeOption
-http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/news/student_blogs/
+http://www.ics.uci.edu/community/news/student_blogs/
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../courses/index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /grad/index
 http://www.ics.uci.edu/grad/index
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_GDIM Major.pdf
-2022_GDIM Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/resources
-http://www.ics.uci.edu/grad/resources
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Laptop_ComputerUse.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/annualreport/
-http://www.ics.uci.edu/about/annualreport/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_DS Major.pdf
-2022_DS Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_DS Major.pdf
-2022_DS Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Withdrawal_Readmission
-http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/faculty/area/
-http://www.ics.uci.edu/faculty/area/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Grade_Options
-http://www.ics.uci.edu/ugrad/policies/Grade_Options
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/index
-http://www.ics.uci.edu/ugrad/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/social/
-http://www.ics.uci.edu/social/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/faculty/area/
-http://www.ics.uci.edu/faculty/area/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-Double_Majors.php
-Double_Majors.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Academic_Honesty.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../resources/Title_IX_Resources.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-degree_cs.php
-degree_cs.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/admissions/index
-http://www.ics.uci.edu/grad/admissions/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_SE Major.pdf
-2022_SE Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/ICS_192_Enrollment_CPT_OPT.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/degrees/Minors
-http://www.ics.uci.edu/ugrad/degrees/Minors
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/funding/housing
-http://www.ics.uci.edu/grad/funding/housing
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/search/
-http://www.ics.uci.edu/about/search/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/
-http://www.ics.uci.edu/ugrad/policies/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/community/alumni/
-http://www.ics.uci.edu/community/alumni/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/sao/Course_updates
-http://www.ics.uci.edu/ugrad/sao/Course_updates
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2021_uci_ics_ds_plos.pdf
-2021_uci_ics_ds_plos.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2021_CGS Major.pdf
-2021_CGS Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/community/events/competition/
-http://www.ics.uci.edu/community/events/competition/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-PLO-Computer-Game-Science-GameDesign.pdf
-PLO-Computer-Game-Science-GameDesign.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-degree_cse.php
-degree_cse.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Information-and-Computer-Science.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Academic_Standing.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/QA_Petitions
-http://www.ics.uci.edu/ugrad/QA_Petitions
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/degrees/index
-http://www.ics.uci.edu/grad/degrees/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/admissions/Prospective_ApplicationProcess.php
-http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Laptop_ComputerUse
-http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Business-Information-Management.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-UC and GE Requirements.pdf
-UC and GE Requirements.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/CS199_IN4MATX199.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-Second_BA.php
-Second_BA.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/courses/index-course
-http://www.ics.uci.edu/ugrad/courses/index-course
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/SAO_News_and_Updates.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/visit/index
-http://www.ics.uci.edu/about/visit/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Academic_Standing
-http://www.ics.uci.edu/ugrad/policies/Academic_Standing
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Biomedical-Computing.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/GDIM_FAQ_Page.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../advising/ICS Credit by Exam.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/about_factsfigures.php
-http://www.ics.uci.edu/about/about_factsfigures.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/dept/
-http://www.ics.uci.edu/dept/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/QA_Graduation
-http://www.ics.uci.edu/ugrad/QA_Graduation
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-index.php
-index.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/
-http://www.ics.uci.edu/ugrad/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/search/search_graduate_all.php
-http://www.ics.uci.edu/about/search/search_graduate_all.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_CS Specializations.pdf
-2022_CS Specializations.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2021_CGS_ Bren Tracks.pdf
-2021_CGS_ Bren Tracks.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/involved/leadership_council
-http://www.ics.uci.edu/involved/leadership_council
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/policies/Academic_Honesty
-http://www.ics.uci.edu/ugrad/policies/Academic_Honesty
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../sao/Course_updates.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/community/scholarships/index
-http://www.ics.uci.edu/community/scholarships/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/courses/index-course
-http://www.ics.uci.edu/grad/courses/index-course
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_GDIM Major.pdf
-2022_GDIM Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/about/equity/
-http://www.ics.uci.edu/about/equity/
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/Course_updates
-http://www.ics.uci.edu/grad/Course_updates
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /ugrad/policies/CS199_IN4MATX199
 http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_INF Specializations.pdf
-2022_INF Specializations.pdf
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/degrees/Minors
+http://www.ics.uci.edu/ugrad/degrees/Minors
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/faculty/centers/
-http://www.ics.uci.edu/faculty/centers/
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/computing/account/new
+http://www.ics.uci.edu/computing/account/new
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../advising/ICS New Student Welcome.php
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/degrees/index.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
 
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../policies/Change_of_Major.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/grad/forms_policies/index
-http://www.ics.uci.edu/grad/forms_policies/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../index.php
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-2022_BIM Major.pdf
-2022_BIM Major.pdf
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-degree_bim.php
-degree_bim.php
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-/ugrad/resources/index
-http://www.ics.uci.edu/ugrad/resources/index
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
-../PLO/Informatics.pdf
-..
-
-CURRENT: http://www.ics.uci.edu/ugrad/degrees/index.php
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /about/
 http://www.ics.uci.edu/about/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/index.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_CSE Major.pdf
-2022_CSE Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/funding/index
-https://www.ics.uci.edu/grad/funding/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-Minors.php
-Minors.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_CSE Major.pdf
-2022_CSE Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/admissions/index
-https://www.ics.uci.edu/grad/admissions/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/involved/
-https://www.ics.uci.edu/involved/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Computer-Science-and-Engineering-2021.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/about_contact.php
-https://www.ics.uci.edu/about/about_contact.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Software-Engineering.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../QA_Graduation.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/sao/SAO_Events.php
-https://www.ics.uci.edu/ugrad/sao/SAO_Events.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/community/news/
-https://www.ics.uci.edu/community/news/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/Concurrent_Enrollment.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_INF Major.pdf
-2022_INF Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/search/index.php
-https://www.ics.uci.edu/about/search/index.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/index.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../resources/index.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/admissions/index-orientationbackupOct12
-https://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../../../computing/account/new.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Grade_Options.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_CS Major.pdf
-2022_CS Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Add_Drop_ChangeOption.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/involved/corporate_partner
-https://www.ics.uci.edu/involved/corporate_partner
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../QA_Petitions.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/about_deanmsg.php
-https://www.ics.uci.edu/about/about_deanmsg.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/faculty/
-https://www.ics.uci.edu/faculty/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../honors/index.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/visit/index.php
-https://www.ics.uci.edu/about/visit/index.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Course_Outside_UCI.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Withdrawal_Readmission.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Course_Outside_UCI
-https://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /faculty/highlights/
-https://www.ics.uci.edu/faculty/highlights/
+http://www.ics.uci.edu/faculty/highlights/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Computer-Science.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-degree_se.php
-degree_se.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/sao/index
-https://www.ics.uci.edu/ugrad/sao/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/admissions_faq/index
-https://www.ics.uci.edu/grad/admissions_faq/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/brenhall/index.php
-https://www.ics.uci.edu/about/brenhall/index.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/
-https://www.ics.uci.edu/about/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Add_Drop_ChangeOption
-https://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../courses/index.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/index
-https://www.ics.uci.edu/grad/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_GDIM Major.pdf
-2022_GDIM Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/resources
-https://www.ics.uci.edu/grad/resources
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Laptop_ComputerUse.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/annualreport/
-https://www.ics.uci.edu/about/annualreport/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_DS Major.pdf
-2022_DS Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_DS Major.pdf
-2022_DS Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Withdrawal_Readmission
-https://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/faculty/area/
-https://www.ics.uci.edu/faculty/area/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Grade_Options
-https://www.ics.uci.edu/ugrad/policies/Grade_Options
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/index
-https://www.ics.uci.edu/ugrad/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/social/
-https://www.ics.uci.edu/social/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/faculty/area/
-https://www.ics.uci.edu/faculty/area/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-Double_Majors.php
-Double_Majors.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Academic_Honesty.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../resources/Title_IX_Resources.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-degree_cs.php
-degree_cs.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/admissions/index
-https://www.ics.uci.edu/grad/admissions/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_SE Major.pdf
-2022_SE Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/ICS_192_Enrollment_CPT_OPT.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/degrees/Minors
-https://www.ics.uci.edu/ugrad/degrees/Minors
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/funding/housing
-https://www.ics.uci.edu/grad/funding/housing
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/search/
-https://www.ics.uci.edu/about/search/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/
-https://www.ics.uci.edu/ugrad/policies/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/community/alumni/
-https://www.ics.uci.edu/community/alumni/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/sao/Course_updates
-https://www.ics.uci.edu/ugrad/sao/Course_updates
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2021_uci_ics_ds_plos.pdf
-2021_uci_ics_ds_plos.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2021_CGS Major.pdf
-2021_CGS Major.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/community/events/competition/
-https://www.ics.uci.edu/community/events/competition/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-PLO-Computer-Game-Science-GameDesign.pdf
-PLO-Computer-Game-Science-GameDesign.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-degree_cse.php
-degree_cse.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Information-and-Computer-Science.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Academic_Standing.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/QA_Petitions
-https://www.ics.uci.edu/ugrad/QA_Petitions
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/degrees/index
-https://www.ics.uci.edu/grad/degrees/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/admissions/Prospective_ApplicationProcess.php
-https://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Laptop_ComputerUse
-https://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Business-Information-Management.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/degrees/index.php
-https://www.ics.uci.edu/ugrad/degrees/index.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-UC and GE Requirements.pdf
-UC and GE Requirements.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/CS199_IN4MATX199.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-Second_BA.php
-Second_BA.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/courses/index-course
-https://www.ics.uci.edu/ugrad/courses/index-course
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/SAO_News_and_Updates.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/visit/index
-https://www.ics.uci.edu/about/visit/index
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Academic_Standing
-https://www.ics.uci.edu/ugrad/policies/Academic_Standing
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Biomedical-Computing.pdf
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/GDIM_FAQ_Page.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../advising/ICS Credit by Exam.php
-..
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/about_factsfigures.php
-https://www.ics.uci.edu/about/about_factsfigures.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/dept/
-https://www.ics.uci.edu/dept/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/QA_Graduation
-https://www.ics.uci.edu/ugrad/QA_Graduation
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-index.php
-index.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/
-https://www.ics.uci.edu/ugrad/
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/search/search_graduate_all.php
-https://www.ics.uci.edu/about/search/search_graduate_all.php
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_CS Specializations.pdf
-2022_CS Specializations.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2021_CGS_ Bren Tracks.pdf
-2021_CGS_ Bren Tracks.pdf
-
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /involved/leadership_council
-https://www.ics.uci.edu/involved/leadership_council
+http://www.ics.uci.edu/involved/leadership_council
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/Academic_Honesty
-https://www.ics.uci.edu/ugrad/policies/Academic_Honesty
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/search/search_graduate_all.php
+http://www.ics.uci.edu/about/search/search_graduate_all.php
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../sao/Course_updates.php
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/community/scholarships/index
-https://www.ics.uci.edu/community/scholarships/index
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/courses/index-course
-https://www.ics.uci.edu/grad/courses/index-course
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/alumni/
+http://www.ics.uci.edu/community/alumni/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_GDIM Major.pdf
-2022_GDIM Major.pdf
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/QA_Graduation
+http://www.ics.uci.edu/ugrad/QA_Graduation
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/about/equity/
-https://www.ics.uci.edu/about/equity/
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/involved/
+http://www.ics.uci.edu/involved/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/Course_updates
-https://www.ics.uci.edu/grad/Course_updates
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/resources
+http://www.ics.uci.edu/grad/resources
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/ugrad/policies/CS199_IN4MATX199
-https://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/courses/index
+http://www.ics.uci.edu/ugrad/courses/index
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_INF Specializations.pdf
-2022_INF Specializations.pdf
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/faculty/
+http://www.ics.uci.edu/faculty/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Withdrawal_Readmission
+http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /faculty/centers/
-https://www.ics.uci.edu/faculty/centers/
+http://www.ics.uci.edu/faculty/centers/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../advising/ICS New Student Welcome.php
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Academic_Standing
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../policies/Change_of_Major.php
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/index
+http://www.ics.uci.edu/ugrad/index
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-/grad/forms_policies/index
-https://www.ics.uci.edu/grad/forms_policies/index
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Add_Drop_ChangeOption
+http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../index.php
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/about_factsfigures.php
+http://www.ics.uci.edu/about/about_factsfigures.php
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-2022_BIM Major.pdf
-2022_BIM Major.pdf
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/funding/index
+http://www.ics.uci.edu/grad/funding/index
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-degree_bim.php
-degree_bim.php
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/events/competition/
+http://www.ics.uci.edu/community/events/competition/
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/
+http://www.ics.uci.edu/ugrad/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/visit/index
+http://www.ics.uci.edu/about/visit/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/equity/
+http://www.ics.uci.edu/about/equity/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/sao/SAO_Events.php
+http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/QA_Petitions
+http://www.ics.uci.edu/ugrad/QA_Petitions
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/news/
+http://www.ics.uci.edu/community/news/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/sao/index
+http://www.ics.uci.edu/ugrad/sao/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Course_Outside_UCI
+http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/about_contact.php
+http://www.ics.uci.edu/about/about_contact.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/degrees/index
+http://www.ics.uci.edu/grad/degrees/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/scholarships/index
+http://www.ics.uci.edu/community/scholarships/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/sao/Course_updates
+http://www.ics.uci.edu/ugrad/sao/Course_updates
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Laptop_ComputerUse
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/involved/corporate_partner
+http://www.ics.uci.edu/involved/corporate_partner
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Grade_Options
+http://www.ics.uci.edu/ugrad/policies/Grade_Options
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/community/news/press/
+http://www.ics.uci.edu/community/news/press/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/about_deanmsg.php
+http://www.ics.uci.edu/about/about_deanmsg.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/search/index.php
+http://www.ics.uci.edu/about/search/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/visit/index.php
+http://www.ics.uci.edu/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
 /ugrad/resources/index
-https://www.ics.uci.edu/ugrad/resources/index
+http://www.ics.uci.edu/ugrad/resources/index
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
-../PLO/Informatics.pdf
-..
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/policies/index
+http://www.ics.uci.edu/grad/policies/index
 
-CURRENT: https://www.ics.uci.edu/ugrad/degrees
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/annualreport/
+http://www.ics.uci.edu/about/annualreport/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/courses/index
+http://www.ics.uci.edu/grad/courses/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/involved/project_class
+http://www.ics.uci.edu/involved/project_class
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/ugrad/policies/Academic_Integrity
+http://www.ics.uci.edu/ugrad/policies/Academic_Integrity
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/grad/forms/index
+http://www.ics.uci.edu/grad/forms/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/about/brenhall/index.php
+http://www.ics.uci.edu/about/brenhall/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+/dept/
+http://www.ics.uci.edu/dept/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Course_Outside_UCI
+http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/community/events/competition/
+http://www.ics.uci.edu/community/events/competition/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Academic_Honesty
+http://www.ics.uci.edu/ugrad/policies/Academic_Honesty
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/involved/leadership_council
+http://www.ics.uci.edu/involved/leadership_council
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/faculty/centers/
+http://www.ics.uci.edu/faculty/centers/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Academic_Standing
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/QA_Graduation
+http://www.ics.uci.edu/ugrad/QA_Graduation
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Add_Drop_ChangeOption
+http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/degrees/index
+http://www.ics.uci.edu/grad/degrees/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/funding/housing
+http://www.ics.uci.edu/grad/funding/housing
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/forms_policies/index
+http://www.ics.uci.edu/grad/forms_policies/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+../../hpi/index.php
+http://www.ics.uci.edu/hpi/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+../area/index.php
+http://www.ics.uci.edu/faculty/area/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/involved/corporate_partner
+http://www.ics.uci.edu/involved/corporate_partner
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Withdrawal_Readmission
+http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/Course_updates
+http://www.ics.uci.edu/grad/Course_updates
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/community/alumni/
+http://www.ics.uci.edu/community/alumni/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/search/search_graduate_all.php
+http://www.ics.uci.edu/about/search/search_graduate_all.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/sao/index
+http://www.ics.uci.edu/ugrad/sao/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/courses/index-course
+http://www.ics.uci.edu/grad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/annualreport/
+http://www.ics.uci.edu/about/annualreport/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+../highlights/index.php
+http://www.ics.uci.edu/faculty/highlights/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/index
+http://www.ics.uci.edu/grad/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/admissions_faq/index
+http://www.ics.uci.edu/grad/admissions_faq/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/degrees/index.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/sao/SAO_Events.php
+http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+../../hpi/index.php
+http://www.ics.uci.edu/hpi/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/admissions/index-orientationbackupOct12
+http://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Laptop_ComputerUse
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/Grade_Options
+http://www.ics.uci.edu/ugrad/policies/Grade_Options
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/community/scholarships/index
+http://www.ics.uci.edu/community/scholarships/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/QA_Petitions
+http://www.ics.uci.edu/ugrad/QA_Petitions
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+index.php
+http://www.ics.uci.edu/faculty/centers/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/visit/index.php
+http://www.ics.uci.edu/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/dept/
+http://www.ics.uci.edu/dept/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/faculty/
+http://www.ics.uci.edu/faculty/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/index
+http://www.ics.uci.edu/ugrad/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/degrees/Minors
+http://www.ics.uci.edu/ugrad/degrees/Minors
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/social/
+http://www.ics.uci.edu/social/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/about_contact.php
+http://www.ics.uci.edu/about/about_contact.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/involved/
+http://www.ics.uci.edu/involved/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/faculty/highlights/
+http://www.ics.uci.edu/faculty/highlights/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
 /about/
-https://www.ics.uci.edu/about/
-
-CURRENT: https://www.informatics.uci.edu/novel-ar-vr-theater-class-builds-foundation-for-new-traditions-in-theater
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/grant-supports-study-of-rallyforrivers-campaign-and-social-medias-role-in-raising-awareness
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/grant-helps-professor-ruberg-explore-diversity-and-harassment-in-video-game-livestreaming
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/ucis-judith-olson-efi-foufoula-georgiou-elected-to-national-academy-of-engineering
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/los-angeles-times-uc-irvine-academics-come-to-the-defense-of-players-after-who-proposes-gaming-disorder-as-a-thing
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/julius-baer-the-familiar-faces-of-interfaces-gillian-hayes-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-records.html
-records.html
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-CV Irvine.pdf
-CV Irvine.pdf
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-Pages from LC_Journal_Issue2_2010-bowker.pdf
-Pages from LC_Journal_Issue2_2010-bowker.pdf
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-http|//www.ischool.pitt.edu/
-http|
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-pubs.htm
-pubs.htm
-
-CURRENT: http://www.ics.uci.edu/~gbowker
- http://www.slis.indiana.edu/TIS
- http:
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-briefer bio.pdf
-briefer bio.pdf
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-classification
-classification
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-watson.gif
-watson.gif
-
-CURRENT: http://www.ics.uci.edu/~gbowker
-actnet.html
-actnet.html
-
-CURRENT: https://www.informatics.uci.edu/bowker-receives-632k-from-nsf-for-collaborative-research-project-on-institutionalizing-databases
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/new-dean-named-for-ics
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-conversation-apple-is-taking-its-first-steps-towards-a-more-comprehensive-post-pc-world-by-michael-cowling
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/quartz-neuroscientists-say-multitasking-literally-drains-the-energy-reserves-of-your-brain-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/doctoral-student-raval-named-a-berkman-klein-center-affiliate-for-2016-17
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-atlantic-why-flash-drives-are-still-everywhere-by-paul-dourish
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-atlantic-do-digital-news-feeds-threaten-or-enhance-deliberative-democracy-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/mark-to-speak-at-aspen-ideas-festival
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/slate-monotasking-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/nsf-awards-dourish-195000-for-software-studies-centric-research
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/update-franz-dourish-formally-recognized-as-acm-fellows
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/harvard-business-review-some-companies-are-banning-email-and-getting-more-done-mark-research-cited
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/knowledgewharton-can-deep-work-really-work-for-you-mark-cited
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/prweb-online-minecraft-summer-camps-launch-june-27-ito-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-courier-mail-technology-is-creating-a-generation-of-dummies-mark-mentioned
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/ito-to-lead-newly-funded-uci-project-aimed-at-improving-connected-learning-opportunities
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/how-apple-watch-and-pervasive-computing-can-lure-you-into-leveling-up-your-fitness
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/helping-people-improving-lives-through-informatics
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: http://www.ics.uci.edu/~wmt
-cvTomlinson.pdf
-cvTomlinson.pdf
-
-CURRENT: https://www.informatics.uci.edu/campus-technology-uc-irvine-offers-new-program-focused-on-human-computer-interaction-design
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/ics-receives-excellence-in-promoting-women-in-undergraduate-computing-award-from-ncwit
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/mark-featured-on-kpccs-airtalk-about-multitasking-in-the-workplace
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/uc-irvine-launches-executive-masters-program-in-human-computer-interaction-design
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/dourish-discusses-chinese-hackerspaces-on-danish-radio
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/uci-ranked-one-of-the-top-game-design-schools-by-acr
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-new-york-times-magazine-the-minecraft-generation-ito-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/lo-named-2016-nsf-graduate-research-fellow
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/informatics-team-wins-lee-dirks-best-paper-award-at-iconference
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/frost-helps-shape-k-12-computer-science-education
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/lopes-added-as-keynote-speaker-for-ilrn-2016
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/lopes-awarded-pizzigati-prize-for-software-in-the-public-interest
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/informatics-professors-bowker-ito-release-interdisciplinary-culture-focused-books
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/dourish-interviewed-about-the-social-life-of-algorithms-for-podcast
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/informatics-team-finalists-for-iconference-lee-dirks-award-for-best-paper
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/lo-ames-named-center-for-technology-society-and-policy-fellows
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/malek-receives-1-million-grant-to-improve-u-s-air-force-systems
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/gary-olson-2-ics-alums-receive-sigchi-honors
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/university-of-washington-information-school-qa-with-connected-learning-expert-mimi-ito
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/uci-researchers-link-compulsive-facebook-checking-to-lack-of-sleep
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/daily-sabah-facebook-celebrates-turning-12-with-friends-day-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/npr-get-a-grip-on-your-information-overload-with-infomagical-mark-mentioned
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/hayes-receives-jacobs-foundation-advanced-research-fellowship
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/los-angeles-times-hi-im-a-digital-junkie-and-i-suffer-from-infomania-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/kobsa-receives-mercator-fellowship
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-atlantic-the-triumph-of-email-mark-mentioned
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/building-the-perfect-app
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/contra-costa-times-university-of-california-pressured-to-count-computer-science-toward-high-school-math-requirement-richardson-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/two-ics-professors-named-2015-acm-fellows
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/research-for-the-public-good
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/harnessing-the-power-of-new-technology
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/the-new-yorker-death-by-flaming-water-ski-an-other-misfortunes-bowker-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/informatics-ph-d-student-to-present-at-acm-dev-2015
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/connected-learning-through-minecraft
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: https://www.informatics.uci.edu/time-company-bans-email-for-1-week-employee-stress-levels-plummet-mark-quoted
-/browse-informatics/site-map/
-https://www.informatics.uci.edu/browse-informatics/site-map/
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-contribute.html
-contribute.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-faq.html
-faq.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-news.html
-news.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-index.html
-index.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-details.html
-details.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-publications.html
-publications.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-links.html
-links.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-contact.html
-contact.html
-
-CURRENT: http://www.ics.uci.edu/~emilyo/SimSE
-downloads.html
-downloads.html
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/funding/index
+http://www.ics.uci.edu/grad/funding/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/search/index.php
+http://www.ics.uci.edu/about/search/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/resources/index
+http://www.ics.uci.edu/ugrad/resources/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/sao/Course_updates
+http://www.ics.uci.edu/ugrad/sao/Course_updates
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/about_factsfigures.php
+http://www.ics.uci.edu/about/about_factsfigures.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/
+http://www.ics.uci.edu/ugrad/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/search/
+http://www.ics.uci.edu/about/search/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/visit/index
+http://www.ics.uci.edu/about/visit/index
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/courses/index-course
+http://www.ics.uci.edu/ugrad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/brenhall/index.php
+http://www.ics.uci.edu/about/brenhall/index.php
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/ugrad/policies/CS199_IN4MATX199
+http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/grad/resources
+http://www.ics.uci.edu/grad/resources
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/equity/
+http://www.ics.uci.edu/about/equity/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/community/news/
+http://www.ics.uci.edu/community/news/
+
+CURRENT: http://www.ics.uci.edu/faculty/centers
+/about/about_deanmsg.php
+http://www.ics.uci.edu/about/about_deanmsg.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Course_Outside_UCI
+http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/community/events/competition/
+http://www.ics.uci.edu/community/events/competition/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Academic_Honesty
+http://www.ics.uci.edu/ugrad/policies/Academic_Honesty
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/involved/leadership_council
+http://www.ics.uci.edu/involved/leadership_council
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/faculty/centers/
+http://www.ics.uci.edu/faculty/centers/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Academic_Standing
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/QA_Graduation
+http://www.ics.uci.edu/ugrad/QA_Graduation
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Add_Drop_ChangeOption
+http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../index.php
+http://www.ics.uci.edu/grad/forms_policies/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/degrees/index
+http://www.ics.uci.edu/grad/degrees/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/funding/housing
+http://www.ics.uci.edu/grad/funding/housing
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../admissions/index-bu-20200916ff.php
+http://www.ics.uci.edu/grad/forms_policies/admissions/index-bu-20200916ff.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/involved/corporate_partner
+http://www.ics.uci.edu/involved/corporate_partner
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Withdrawal_Readmission
+http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/Course_updates
+http://www.ics.uci.edu/grad/Course_updates
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/community/alumni/
+http://www.ics.uci.edu/community/alumni/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/search/search_graduate_all.php
+http://www.ics.uci.edu/about/search/search_graduate_all.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/sao/index
+http://www.ics.uci.edu/ugrad/sao/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/courses/index-course
+http://www.ics.uci.edu/grad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/annualreport/
+http://www.ics.uci.edu/about/annualreport/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/index
+http://www.ics.uci.edu/grad/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/admissions_faq/index
+http://www.ics.uci.edu/grad/admissions_faq/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/degrees/index.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/sao/SAO_Events.php
+http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../Course_updates.php
+http://www.ics.uci.edu/grad/forms_policies/Course_updates.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/admissions/index-orientationbackupOct12
+http://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Laptop_ComputerUse
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/Grade_Options
+http://www.ics.uci.edu/ugrad/policies/Grade_Options
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/community/scholarships/index
+http://www.ics.uci.edu/community/scholarships/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/QA_Petitions
+http://www.ics.uci.edu/ugrad/QA_Petitions
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../../../computing/account/new.php
+http://www.ics.uci.edu/computing/account/new.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/visit/index.php
+http://www.ics.uci.edu/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/dept/
+http://www.ics.uci.edu/dept/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/faculty/
+http://www.ics.uci.edu/faculty/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../funding/index.php
+http://www.ics.uci.edu/grad/forms_policies/funding/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/index
+http://www.ics.uci.edu/ugrad/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/degrees/Minors
+http://www.ics.uci.edu/ugrad/degrees/Minors
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/social/
+http://www.ics.uci.edu/social/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/about_contact.php
+http://www.ics.uci.edu/about/about_contact.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../admissions_faq/index.php
+http://www.ics.uci.edu/grad/forms_policies/admissions_faq/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+index.php
+http://www.ics.uci.edu/grad/forms_policies/index/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/involved/
+http://www.ics.uci.edu/involved/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/faculty/highlights/
+http://www.ics.uci.edu/faculty/highlights/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../funding/housing.php
+http://www.ics.uci.edu/grad/forms_policies/funding/housing.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/funding/index
+http://www.ics.uci.edu/grad/funding/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/search/index.php
+http://www.ics.uci.edu/about/search/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/resources/index
+http://www.ics.uci.edu/ugrad/resources/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/sao/Course_updates
+http://www.ics.uci.edu/ugrad/sao/Course_updates
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/about_factsfigures.php
+http://www.ics.uci.edu/about/about_factsfigures.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/
+http://www.ics.uci.edu/ugrad/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/search/
+http://www.ics.uci.edu/about/search/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/forms_policies/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/visit/index
+http://www.ics.uci.edu/about/visit/index
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/courses/index-course
+http://www.ics.uci.edu/ugrad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/brenhall/index.php
+http://www.ics.uci.edu/about/brenhall/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../../about/visit/index.php
+http://www.ics.uci.edu/grad/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../courses/index-course.php
+http://www.ics.uci.edu/grad/forms_policies/courses/index-course.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/ugrad/policies/CS199_IN4MATX199
+http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+../resources.php
+http://www.ics.uci.edu/grad/forms_policies/resources.php
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/grad/resources
+http://www.ics.uci.edu/grad/resources
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/equity/
+http://www.ics.uci.edu/about/equity/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/community/news/
+http://www.ics.uci.edu/community/news/
+
+CURRENT: http://www.ics.uci.edu/grad/forms_policies/index
+/about/about_deanmsg.php
+http://www.ics.uci.edu/about/about_deanmsg.php
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start
+http://www.ics.uci.edu/doku.php/start
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=index
+http://www.ics.uci.edu/doku.php/start?do=index
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/projects:maint-2022
+http://www.ics.uci.edu/doku.php/projects:maint-2022
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/accounts:account_activation
+http://www.ics.uci.edu/doku.php/accounts:account_activation
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/announce:announce-2022
+http://www.ics.uci.edu/doku.php/announce:announce-2022
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/announce:announce-2021
+http://www.ics.uci.edu/doku.php/announce:announce-2021
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=login&sectok=
+http://www.ics.uci.edu/doku.php/start?do=login&sectok=
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/accounts:password_change_reset
+http://www.ics.uci.edu/doku.php/accounts:password_change_reset
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/virtual_environments:jupyterhub
+http://www.ics.uci.edu/doku.php/virtual_environments:jupyterhub
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/projects:maint-spring-2021
+http://www.ics.uci.edu/doku.php/projects:maint-spring-2021
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/sysops
+http://www.ics.uci.edu/doku.php/sysops
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=backlink
+http://www.ics.uci.edu/doku.php/start?do=backlink
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=revisions
+http://www.ics.uci.edu/doku.php/start?do=revisions
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=edit
+http://www.ics.uci.edu/doku.php/start?do=edit
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/feed.php
+http://www.ics.uci.edu/feed.php
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/services:zoom
+http://www.ics.uci.edu/doku.php/services:zoom
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/projects:maint-2021
+http://www.ics.uci.edu/doku.php/projects:maint-2021
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=recent
+http://www.ics.uci.edu/doku.php/start?do=recent
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/accounts:remote_desktop_connection
+http://www.ics.uci.edu/doku.php/accounts:remote_desktop_connection
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start?do=media&ns=
+http://www.ics.uci.edu/doku.php/start?do=media&ns=
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/projects:maint-winter-2021
+http://www.ics.uci.edu/doku.php/projects:maint-winter-2021
+
+CURRENT: http://www.ics.uci.edu/computing/account/new.php
+/doku.php/start
+http://www.ics.uci.edu/doku.php/start
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/visit/index.php
+http://www.ics.uci.edu/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/search/search_graduate_all.php
+http://www.ics.uci.edu/about/search/search_graduate_all.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/brenhall/index.php
+http://www.ics.uci.edu/about/brenhall/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/forms/index
+http://www.ics.uci.edu/grad/forms/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/news/
+http://www.ics.uci.edu/community/news/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/equity/
+http://www.ics.uci.edu/about/equity/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/degrees/index.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/visit/index
+http://www.ics.uci.edu/about/visit/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/involved/project_class
+http://www.ics.uci.edu/involved/project_class
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Add_Drop_ChangeOption
+http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/CS199_IN4MATX199
+http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/degrees/Minors
+http://www.ics.uci.edu/ugrad/degrees/Minors
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/news/press/
+http://www.ics.uci.edu/community/news/press/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/computing/account/new
+http://www.ics.uci.edu/computing/account/new
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/
+http://www.ics.uci.edu/ugrad/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/involved/leadership_council
+http://www.ics.uci.edu/involved/leadership_council
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/involved/corporate_partner
+http://www.ics.uci.edu/involved/corporate_partner
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/QA_Graduation
+http://www.ics.uci.edu/ugrad/QA_Graduation
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Laptop_ComputerUse
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Academic_Integrity
+http://www.ics.uci.edu/ugrad/policies/Academic_Integrity
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/search/index.php
+http://www.ics.uci.edu/about/search/index.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/involved/
+http://www.ics.uci.edu/involved/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/faculty/highlights/
+http://www.ics.uci.edu/faculty/highlights/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/courses/index
+http://www.ics.uci.edu/ugrad/courses/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Academic_Standing
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/about_factsfigures.php
+http://www.ics.uci.edu/about/about_factsfigures.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/funding/index
+http://www.ics.uci.edu/grad/funding/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/about_contact.php
+http://www.ics.uci.edu/about/about_contact.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Course_Outside_UCI
+http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/index
+http://www.ics.uci.edu/ugrad/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/QA_Petitions
+http://www.ics.uci.edu/ugrad/QA_Petitions
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/policies/index
+http://www.ics.uci.edu/grad/policies/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/annualreport/
+http://www.ics.uci.edu/about/annualreport/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/index
+http://www.ics.uci.edu/grad/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/scholarships/index
+http://www.ics.uci.edu/community/scholarships/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Grade_Options
+http://www.ics.uci.edu/ugrad/policies/Grade_Options
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/courses/index
+http://www.ics.uci.edu/grad/courses/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/faculty/
+http://www.ics.uci.edu/faculty/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/policies/Withdrawal_Readmission
+http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/degrees/index
+http://www.ics.uci.edu/grad/degrees/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/dept/
+http://www.ics.uci.edu/dept/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/news/student_blogs/
+http://www.ics.uci.edu/community/news/student_blogs/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/faculty/centers/
+http://www.ics.uci.edu/faculty/centers/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/sao/index
+http://www.ics.uci.edu/ugrad/sao/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/sao/Course_updates
+http://www.ics.uci.edu/ugrad/sao/Course_updates
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/grad/resources
+http://www.ics.uci.edu/grad/resources
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/events/competition/
+http://www.ics.uci.edu/community/events/competition/
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/resources/index
+http://www.ics.uci.edu/ugrad/resources/index
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/ugrad/sao/SAO_Events.php
+http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/about/about_deanmsg.php
+http://www.ics.uci.edu/about/about_deanmsg.php
+
+CURRENT: http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+/community/alumni/
+http://www.ics.uci.edu/community/alumni/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/funding/housing
+http://www.ics.uci.edu/grad/funding/housing
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+funding/housing.php
+http://www.ics.uci.edu/grad/funding/housing.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+funding/index.php
+http://www.ics.uci.edu/grad/funding/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/about_contact.php
+http://www.ics.uci.edu/about/about_contact.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/search/search_graduate_all.php
+http://www.ics.uci.edu/about/search/search_graduate_all.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Laptop_ComputerUse
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/CS199_IN4MATX199
+http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/funding/index
+http://www.ics.uci.edu/grad/funding/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+resources.php
+http://www.ics.uci.edu/grad/resources/resources.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/index
+http://www.ics.uci.edu/grad/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+index.php
+http://www.ics.uci.edu/grad/resources/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/degrees/Minors
+http://www.ics.uci.edu/ugrad/degrees/Minors
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Grade_Options
+http://www.ics.uci.edu/ugrad/policies/Grade_Options
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/sao/Course_updates
+http://www.ics.uci.edu/ugrad/sao/Course_updates
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/search/
+http://www.ics.uci.edu/about/search/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/forms_policies/index
+http://www.ics.uci.edu/grad/forms_policies/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/courses/index-course
+http://www.ics.uci.edu/grad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/faculty/highlights/
+http://www.ics.uci.edu/faculty/highlights/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+admissions/index-bu-20200916ff.php
+http://www.ics.uci.edu/grad/admissions/index-bu-20200916ff.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/sao/index
+http://www.ics.uci.edu/ugrad/sao/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/involved/corporate_partner
+http://www.ics.uci.edu/involved/corporate_partner
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/Course_updates
+http://www.ics.uci.edu/grad/Course_updates
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/dept/
+http://www.ics.uci.edu/dept/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/admissions/index
+http://www.ics.uci.edu/grad/admissions/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/admissions/index-orientationbackupOct12
+http://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/sao/SAO_Events.php
+http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/equity/
+http://www.ics.uci.edu/about/equity/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/resources/index
+http://www.ics.uci.edu/ugrad/resources/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/search/index.php
+http://www.ics.uci.edu/about/search/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/about_factsfigures.php
+http://www.ics.uci.edu/about/about_factsfigures.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/visit/index
+http://www.ics.uci.edu/about/visit/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+forms_policies/index.php
+http://www.ics.uci.edu/grad/forms_policies/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/QA_Graduation
+http://www.ics.uci.edu/ugrad/QA_Graduation
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/brenhall/index.php
+http://www.ics.uci.edu/about/brenhall/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/annualreport/
+http://www.ics.uci.edu/about/annualreport/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/community/alumni/
+http://www.ics.uci.edu/community/alumni/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/admissions_faq/index
+http://www.ics.uci.edu/grad/admissions_faq/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Course_Outside_UCI
+http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Withdrawal_Readmission
+http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/involved/leadership_council
+http://www.ics.uci.edu/involved/leadership_council
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/community/scholarships/index
+http://www.ics.uci.edu/community/scholarships/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/faculty/
+http://www.ics.uci.edu/faculty/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/
+http://www.ics.uci.edu/about/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/degrees/index
+http://www.ics.uci.edu/grad/degrees/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/
+http://www.ics.uci.edu/ugrad/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+Course_updates.php
+http://www.ics.uci.edu/grad/resources/Course_updates.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+admissions_faq/index.php
+http://www.ics.uci.edu/grad/admissions_faq/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Academic_Honesty
+http://www.ics.uci.edu/ugrad/policies/Academic_Honesty
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Academic_Standing
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+courses/index-course.php
+http://www.ics.uci.edu/grad/courses/index-course.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+../about/visit/index.php
+http://www.ics.uci.edu/grad/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/degrees/index.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+../../computing/account/new.php
+http://www.ics.uci.edu/computing/account/new.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/grad/admissions/Prospective_ApplicationProcess.php
+http://www.ics.uci.edu/grad/admissions/Prospective_ApplicationProcess.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/policies/Add_Drop_ChangeOption
+http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/faculty/area/
+http://www.ics.uci.edu/faculty/area/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/community/news/
+http://www.ics.uci.edu/community/news/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/social/
+http://www.ics.uci.edu/social/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/about_deanmsg.php
+http://www.ics.uci.edu/about/about_deanmsg.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/community/events/competition/
+http://www.ics.uci.edu/community/events/competition/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/about/visit/index.php
+http://www.ics.uci.edu/about/visit/index.php
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/faculty/centers/
+http://www.ics.uci.edu/faculty/centers/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/index
+http://www.ics.uci.edu/ugrad/index
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/courses/index-course
+http://www.ics.uci.edu/ugrad/courses/index-course
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/involved/
+http://www.ics.uci.edu/involved/
+
+CURRENT: http://www.ics.uci.edu/grad/resources
+/ugrad/QA_Petitions
+http://www.ics.uci.edu/ugrad/QA_Petitions
 

@@ -1,20 +1,32 @@
-http://www.informatics.uci.edu/explore/faculty-profiles/bonnie-ruberg
+http://www.ics.uci.edu/doku.php/virtual_environments:jupyterhub
 404
 None
 
-http://luci.ics.uci.edu/pages/Students/AmandaCullen/AmandaCullen.html
+http://www.ics.uci.edu/doku.php/start?do=backlink
 404
 None
 
-http://hana.ics.uci.edu/Gary_vita
-601
-Download Exception HTTPConnectionPool(host='hana.ics.uci.edu', port=80): Max retries exceeded with url: /Gary_vita (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f67362f6c20>: Failed to establish a new connection: [Errno -2] Name or service not known')).
+http://www.ics.uci.edu/doku.php/projects:maint-spring-2021
+404
+None
 
-http://http://www.informatics.uci.edu
-604
-Domain must be within spec.
+http://www.ics.uci.edu/doku.php/projects:maint-winter-2021
+404
+None
 
-http://sdcl.ics.uci.edu/research/past-projects/code-topics
+http://www.ics.uci.edu/doku.php/announce:announce-2021
+404
+None
+
+http://www.ics.uci.edu/doku.php/start?do=login&sectok=
+404
+None
+
+http://www.ics.uci.edu/doku.php/projects:maint-2022
+404
+None
+
+http://www.ics.uci.edu/doku.php/accounts:password_change_reset
 404
 None
 

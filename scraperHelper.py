@@ -20,7 +20,11 @@ def convertToAbsolute(url, link):
     
     if link.startswith("/") or link[0].isalnum() and link.count("/"): #not link.endswith((".html", ".htm", ".php")):  
         #print('urljoin')
-        return urljoin(url, link)
+        parsedURL = urlparse(urljoin(url, link))
+        return urlunparse((parsedURL.scheme, parsedURL.netloc, 
+                              parsedURL.path,
+                              parsedURL.params,
+                              parsedURL.query, '')) # omit fragments
 
     parsed = urlparse(url)
     if parsed.path and (parsed.path.endswith((".html", ".htm", ".php"))) or parsed.query:  
@@ -41,7 +45,7 @@ def convertToAbsolute(url, link):
         if part == '..':  # ../ tells us that we want to access the parent of the current website domain
             if len(updatedParts) > 0:
                 updatedParts.pop() # the end of a path shouldn't end in .. so there should be an obj in our list
-        elif part:
+        elif part and part != ".":
             updatedParts.append(part)
     
     normalizedPath = "/".join(updatedParts)

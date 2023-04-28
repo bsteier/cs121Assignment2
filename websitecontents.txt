@@ -1,10 +1,10 @@
 
 
 
+graduate resources @ UC Irvine, Bren:ICS
 
 
 
-	development – Software Design and Collaboration Laboratory
 
 
 
@@ -14,6 +14,7 @@
 
 
 
+Skip to main content
 
 
 
@@ -35,98 +36,236 @@
 
 
 
+HOME
 
 
+ABOUT
 
 
-SDCL Software Design and Collaboration Laboratory
+About the School
 
 
+Dean's Welcome
 
 
+Facts and Figures
 
-Tag Archive
-development
-Former Student
-guests
-Lab Updates
-platforms
-Research
-social
-software
-UCI
-Visit
-workshop
 
-Exploring the unexplored in social software development platforms
+Donald Bren Hall
 
-Published on May 23, 2019 By David Kutas
 
-On a sunny but slightly cool Friday in Irvine, lead researchers and their students gathered to present their current research pursuits, find common interests, and define future collaborations. We would like to express our gratitude to Debra Brodbeck (Assistant Director of ISR) and David Redmiles (ICS professor) for organizing and coordinating this workshop.
+Visit the Bren School
 
 
+Equity & Diversity
+                            
 
 
+Contact Us
 
 
 
- 
- 
 
+DEPARTMENTS
 
-Collaborators
 
-Anita Sarma
-David Redmiles
-Marian Petre
-Shinobu Saito
-Thomas LaToza
+Computer Science
 
 
+Informatics
 
 
+Statistics
 
 
 
 
+RESEARCH
 
 
-Home
-Research
+Research Areas
 
-Chatbots
-KnoCap
-Past projects
 
-Lighthouse
-CrowdDesign
-Crowd Debugging
-Calico
-CodeExchange
-Code Orb
-Crowd Development
-PorchLight
+Research Centers
 
 
+Research Highlights
 
 
-Papers
 
-Technical reports
-Dissertations
-Books
 
+STUDENTS
 
-Opportunities
-People
 
-Previous members
+Graduate ▸
 
 
-Sponsors
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
 Contact
 
-Directions
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
 
 
 
@@ -138,26 +277,156 @@ Directions
 
 
 
- The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
 
 
 
 
 
-    
 
 
 
 
 
-   
 
 
 
 
-Copyright ©             
-            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
-                            Log In
+
+
+
+
+Bren school home / Graduate
+
+
+Campus Resources for Graduate Students
+
+UCI campus resources are there to ensure your success and well-being. Please consider visiting the Student Affairs Centers & Services website for an exhaustive list of all student support services. If you need assistance in reaching out to any of these resources please do not hesitate to contact the ICS Graduate Counselors at gcounsel@ics.uci.edu. 
+
+
+Associated Graduate Students
+UCI Financial Services 
+UCI Division of Career Pathways
+Child Care Services
+Counseling Center (Psychological)
+Cross-Cultural Center
+Disability Services Center
+Division of Continuing Education
+General Catalogue
+Graduate Division
+Graduate Resource Center
+International Center
+Student Housing
+UCI Libraries
+Lesbian, Gay, Bisexual, Transgender (LGBT) Resource Center
+UCI Student Health Center
+Veteran Services
+Wellness, Health and Counseling Services
+
+ 
+
+
+
+
+More Graduate
+
+Contact
+Prospective students
+How to Apply
+
+Academic year plan
+Course Updates
+Forms and Policies
+Admissions FAQ
+Funding
+Housing
+Computing support
+Campus resources
+Visit the Bren School
+ 
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
 
 
 
