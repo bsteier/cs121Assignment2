@@ -1,2 +1,2 @@
-35230
-http://www.ics.uci.edu/~gbowker/classification
+120030
+http://www.ics.uci.edu/~wjohnson/BIDA/Ch8/prioriterates.txt

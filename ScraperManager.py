@@ -69,24 +69,29 @@ class Manager:
         return sum(self.token_freq.values())
 
 class CurrentData():
-    visitedHashes = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
+    problemHash = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
                     '1001110100110010010010001011111000100010100010000100001000000010',
                     '1000000110010011001110101011101101101000001000100010000000100000',
                     '1001000100110010011100111000111011100001111100001011010000110000',
-                    '1101000100111110010010111110011011100001101110001010110000100000'}  
+                    '1101000100111110010010111110011011100001101110001010110000100000',
+                    '1101000100011010010100111000011111100011111110101111111100110000'}  
     # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, https://swiki.ics.uci.edu/doku.php/start?rev=1626126739&do=diff, https://swiki.ics.uci.edu/doku.php/virtual_environments:virtualbox?do=media&ns=virtual_environments, 
     # https://melissamazmanian.com/}
+
+    visitedHash = set()
 
     def compareHashSimilarity(self, hashCode):
         """
         Returns true if hashCode is similar to one we have previosly seen.
         """
         #print("SIZE", len(self.visitedHashes))
-        for h in self.visitedHashes:
+        for h in self.visitedHash.union(self.problemHash):
             if simHash.calc_similarity(h, hashCode):
                 return True
 
-        self.visitedHashes.add(hashCode)   
+        if len(self.visitedHash) > 1200:  # when crawler starts to slow down
+            self.visitedHash = set()
+        self.visitedHash.add(hashCode)   
         return False
 
 
@@ -138,6 +143,12 @@ class ResponseValidity():
             return self.resp.raw_response.headers['Location']  # learned how to access redirection on ChatGPT
         return False
 
+    def isLowQual(self, wordCount:int, min=100) -> bool:
+        """
+        Determines if a web response has low information based on its word count.
+        True: low quality, don't scrape
+        """
+        return wordCount < min
 
     def canCrawl(self) -> bool:
         """

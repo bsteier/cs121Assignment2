@@ -3,1505 +3,335 @@
 
 
 
-Description of Data Sets for Mind on Statistics
-
-
-  
-
-
-Data Sets for Mind on Statistic,
-      3rd edition (Utts
-      and Heckard)
-Click here for
-      an index of Datasets available.
-Datasets are available in each of these formats: 
-
-Minitab 
-        Minitab portable for all versions
-        Excel 
-        SPSS 
-        JMP-IN
-        R
-        TI-84 
-        Text (ASCII)
-      
-A few data sets have some missing values due to nonresponse
-      and these are represented either by an asterisk or a blank entry
-      depending on the file format and type of variable. 
-Descriptions of the Data Sets
-The links in the table immediately below can be used to jump
-      to the description of a data set. Within each description, there
-      is a link that can be used to view a text version of the data
-      set.  
-        
-
-beans 
-bears-female 
-Cash5 
-ceodata 
-Chap16-examples
-chap4-heights 
-cholest 
-chugtime 
-deprived 
-Fantasy5 
-Fantasy5-99 
-firstladies 
-GSS-02 
-GSS-93 
-GSS-93samp
-handheight 
-happyface 
-heightfoot
-
-idealwt
-idealwtmen idealwtwomen 
-letters 
-MusicCDs 
-oldfaithful
-pennstate1 
-pennstate1F
-pennstate1M
-pennstate2
-pennstate3 
-pennstate4 
-pennstate5 
-perhouse 
-physical 
-poverty 
-ProfBooks 
-pulsemarch
-
-
-rainfall 
-sats98 
-signdist 
-sleepstudy
-speedlimit
-Student0405
-temperature 
-turkeypop
-UCDavis1 
-UCDavis1F
-UCDavis1M 
-UCDavis2
-UCDchap5 
-UCDwomht
-wineratings 
-wthghtM  YouthRisk 
-YouthRisk03
-
-
-
-beans
-Fifteen students each put as many beans into a cup as they
-      were able in 15 seconds. All students did the task twice, once
-      with their dominant hand and once with their non-dominant hand.
-      (Source: The authors)
-There are three columns of data:
-Column   Name          
-      Description 
-       C1        Dom            
-      Beans placed with dominant hand  
-       C2        NonDom     
-      Beans placed with nondominant hand.  
-       C3        Diff              
-      Difference between two hands  
-        
-
-Top of Page
-See beans Data
-
-
-bears-female
-Age and physical measurement data for n=19 female wild bears.
-      (Source: Minitab, Inc.).
-There are five columns of data::
-Column   Name          
-      Description 
-       C1         Age             
-      age in months  
-       C2         Neck           
-      neck girth, inches  
-       C3         Length        
-      length of bear, inches  
-       C4         Chest          
-      chest girth, inches  
-       C5         Weight        
-      pounds 
-        
-
-Top of Page
-See bears-female
-            Data
-
-
-Cash5
-Data for n = 1,560 plays of the Pennsylvania lottery game
-      called Cash 5. In the game the state randomly picks 5 numbers
-      between 1 and 39. The data are used in an example in Chapter
-      9. This game is called Fantasy 5 in California and some data
-      for that state are in the dataset Fantasy5.  
-      (Source: Pennsylvania Lottery Commission website, www.palottery.org)
-There are six columns of data::
-Column   Name           
-      Description 
-       C1         date             
-      Date of game  
-       C2         low               
-      Lowest number picked  
-       C3         second         
-      Second number in low to high order  
-       C4         median         
-      Median of numbers picked  
-       C5         fourth           
-      Fourth number in low to high order  
-       C6         high              
-      Highest number picked  
-        
-
-Top of Page
-See Cash5 Data
-
-
-ceodata
-Ages and annual salaries for the CEOs of the 60 top ranked
-      small companies in America in 1993. Source: Forbes,
-      Nov. 8, 1993, "America's Best Small Companies," 
-
-      also at http://lib.stat.cmu.edu/ DASL/ Datafiles/ ceodat.html)
-There are two columns of data::
-Column   Name          
-      Description 
-        C1        Age             
-      age of CEO  
-        C2        Salary         
-      annual salary in thousands (There's one missing value.) 
-
-        
-
-Top of Page
-See ceodata Data
-
-
-Chap16-examples
-The data used for Examples 16.1, 16.12, and 16.13. 
-There are three columns of data:: 
-Column   Name          
-      Description 
-        C1        Seat             
-      Preferred classroom seat location for student. 
-        C2        GPA            
-      Grade point average of student. 
-        C3        alcohol          Number
-      of alcoholic beverages consumed in typical week.
-
-Top of Page
-See Chap16-examples
-            Data
-
-
-chap4-heights
-Heights (inches) for 55 females and 45 males. The data are
-      used by the Sampling applet in Section 3.7.  (Source:
-      The authors.) 
-There are two columns of data:: 
-Column   Name          
-      Description 
-        C1        Sex             
-      Male of Female 
-        C2        Height        
-      height in inches  
-        
-
-Top of Page
-See chap4-heights
-            Data
-
-
-cholest
-Cholesterol levels for 28 heart attack patients measured 2,
-      4, and 14 days after the heart attack, and also cholesterol levels
-      for 30 other patients who did not have a heart attack. (Source:
-      Minitab, Inc.)
-There are four columns of data:
-Column   Name          
-      Description 
-       C1        2-Day          
-      Cholesterol level 2 days after heart attack  
-       C2        4-Day          
-      Cholesterol level 4 days after heart attack  
-       C3        14-Day        
-      Cholesterol level 14 days after heart attack (9 missing values) 
-
-       C4        control         
-      Cholesterol levels for 30 patients without a heart attack 
-
-        
-
-Top of Page
-See cholest Data
-
-
-chugtime
-Body weights and the time it takes to chug a 12-ounce beverage
-      for n=13 college students. The data were submitted by a student
-      for a class project. (Source: William Harkness, Pennsylvania
-      State University)
-There are two columns of data:
-Column   Name           
-      Description 
-       C1         Weight         
-      body weight, pounds  
-       C2         ChugTime    
-      time to chug, seconds  
-        
-
-Top of Page
-See chugtime Data
-
-
-deprived
-Amount of sleep per night and whether person feels sleep deprived
-      for n=86 college students. (Source: Laura Simon, Pennsylvania
-      State University)
-There are two columns of data:
-Column   Name           
-      Description 
-        C1        Deprived     
-      Answer to, "Do you feel that you are sleep deprived?" 
-
-        C2        SleepHrs     
-      Self-reported hours of sleep per night  
-        
-
-Top of Page
-See deprived Data
-
-
-Fantasy5
-Data for n = 2,318 plays of the California lottery game called
-      Fantasy 5. In the game, the state randomly picks 5 numbers between
-      1 and 39. This game is called Cash 5 in Pennsylvania and some
-      data for that state are in the dataset Cash5. (Source:
-      California Lottery website, www.calottery.com)
-There are six columns of data:
-Column   Name           
-      Description 
-       C1         Date            
-      Date of game  
-       C2         Low              
-      Lowest number picked  
-       C3         Second         
-      Second number in low to high order  
-       C4         Third            
-      Median of numbers picked  
-       C5         Fourth          
-      Fourth number in low to high order  
-       C6         High             
-      Highest number picked  
-        
-
-Top of Page
-See Fantasy5 Data
-
-
-Fantasy5-99
-Data for the n = 365 daily plays in 1999 of the California
-      lottery game called Fantasy 5. In the game, the state randomly
-      picks 5 numbers between 1 and 39. The data in this data set are
-      a subset of the data set Fantasy5. (Source: California
-      Lottery website, www.calottery.com) 
-There are six columns of data:
-Column   Name            
-      Description 
-       C1         Date             
-      Date of game  
-       C2         Low              
-      Lowest number picked  
-       C3         Second         
-      Second number in low to high order  
-       C4         Third            
-      Median of numbers picked  
-       C5         Fourth          
-      Fourth number in low to high order  
-       C6         High             
-      Highest number picked  
-        
-
-Top of Page
-See Fantasy5-99
-            Data
-
-
-firstladies
-Ages of death for First Ladies of the United States. Data
-      are given only for those who have died as Oct. 19, 2005. 
-      There are two columns of data:
-Column   Name           
-      Description 
-       C1         Name           
-      Name of First Lady 
-       C2         agedeath      
-      Age at death 
-        
-
-Top of Page
-See firstladies
-            Data
-
-
-GSS-02
-Data are for thirteen variables and n =2765 respondents in
-      the 2002 General Social Survey, a national survey done by the
-      National Opinion Research Center at the University of Chicago
-      Some questions are only asked of a portion of of the survey participants,
-      so there is quite a bit of missing data. GSS-93 gives 1993 data
-      for the first eleven variables in this dataset. (Source:
-      SDA archive at UC Berkeley website, http://csa.berkeley.edu:7502) 
-There are eleven columns of data: 
-Column   Name        
-      Description 
-       C1         sex            
-      Sex of respondent  
-       C2         race          
-      Race of respondent (White, African American, Other)  
-       C3         degree      
-      Highest educational degree received (Five categories)  
-       C4         relig          
-      Religious preference (Catholic, Protestant, Jewish, Other) 
-
-       C5         polparty    
-      Does respondent think of self as Democrat, Republican, Indep.
-      or Other?  
-       C6         cappun      
-      Does the respondent favor or oppose the death penalty. 
-
-       C7         tvhours      
-      Hours of watching television on a typical day  
-       C8         marijuan    
-      Whether the respondent thinks marijuana should be legalized or
-      not  
-       C9         owngun      
-      Whether respondent owns a gun or not (Yes or No)  
-       C10       gunlaw        
-      Does respondent favor or oppose a law requiring a permit to buy
-      a gun?  
-       C11       age             
-      Age of the respondent  
-       C12       chldidel       
-      Respondent's view of ideal number of children for a couple to
-      have   
-       C13       emailtime
-          Hours per week that respondent spends using
-      email  
-
-Top of Page
-See GSS-02 Data
-
-
-GSS-93
-Data are for eleven variables and n = 1,606 respondents in
-      the 1993 General Social Survey, a national survey done by the
-      National Opinion Research Center at the University of Chicago
-      Some questions are only asked of about two-thirds of the survey
-      participants, so there is quite a bit of missing data. (Source:
-      SDA archive at UC Berkeley website, http://csa.berkeley.edu:7502) 
-There are eleven columns of data:
-Column   Name        
-      Description 
-       C1         sex           
-      Sex of respondent  
-       C2         race          
-      Race of respondent (White, African American, Other)  
-       C3         degree      
-      Highest educational degree received (Five categories)  
-       C4         relig         
-      Religious preference (Catholic, Protestant, Jewish, Other) 
-
-       C5         polparty    
-      Does respondent think of self as Democrat, Republican, Indep.
-      or Other?  
-       C6         cappun      
-      Does the respondent favor or oppose the death penalty. 
-
-       C7         tvhours      
-      Hours of watching television on a typical day  
-       C8         marijuan    
-      Whether the respondent thinks marijuana should be legalized or
-      not  
-       C9         owngun      
-      Whether respondent owns a gun or not (Yes or No)  
-       C10       gunlaw        
-      Does respondent favor or oppose a law requiring a permit to buy
-      a gun?  
-       C11       age             
-      Age of the respondent  
-        
-
-Top of Page
-See GSS-93 Data
-
-
-GSS-93samp
-n=500 randomly selected observations from the GSS-93
-      data set. The random selection was done by the authors using
-      Minitab. (Source: SDA archive at UC Berkeley website,
-      http://csa.berkeley.edu:7502)
-There are eleven columns of data:
-Column   Name        
-      Description 
-       C1         sex           
-      Sex of respondent  
-       C2         race          
-      Race of respondent (White, African American, Other)  
-       C3         degree      
-      Highest educational degree received (Five categories)  
-       C4         relig         
-      Religious preference (Catholic, Protestant, Jewish, Other) 
-
-       C5         polparty    
-      Does respondent think of self as Democrat, Republican, Indep.or
-      Other?  
-       C6         cappun      
-      Does the respondent favor or oppose the death penalty  
-       C7         tvhours      
-      Hours of watching television on a typical day  
-       C8         marijuan    
-      Whether the respondent thinks marijuana should be legalized or
-      not  
-       C9         owngun      
-      Whether respondent owns a gun or not (Yes or No)  
-       C10       gunlaw        
-      Does respondent favor or oppose a law requiring a permit to buy
-      a gun?  
-       C11       age             
-      Age of the respondent  
-        
-
-Top of Page
-See GSS-93samp
-            Data
-
-
-handheight
-Heights and stretched handspans for n=167 college students.
-      Each student decided which of their hands to measure. The data
-      are used for examples in Chapters 5 and 14. (Source: The
-      authors)
-There are three columns of data:
-Column   Name           
-      Description 
-       C1         Sex             
-      Male or Female  
-       C2         Height        
-      Self-reported height (inches)  
-       C3         HandSpan  
-      Self-measured stretched handspan (cm)  
-        
-
-Top of Page
-See handheight
-            Data
-
-
-happyface
-Tip percents on restaurant bills for male and female servers
-      who either draw a happy face on the bill or do not in a randomized
-      experiment.The data are used for Example 16.6 and an example
-      in Supplemental Topic S4. (Source: Professor Bruce Rind
-      of Temple University) 
-There are three columns of data: 
-Column   Name           
-      Description 
-       C1         Message      
-      HappyFace or None  
-       C2         Sex               
-      Sex of server  (Male or Female) 
-       C3         TipPct          
-      Tip as percent of the bill 
-        
-
-Top of Page
-See happyface
-            Data
-
-
-heightfoot
-Heights and foot lengths for n=33 college students. (Source:
-      William Harkness, Pennsylvania State University)
-There are two columns of data:
-Column   Name          
-      Description 
-       C1         height         
-      Self-reported height, inches 
-       C2         foot             
-      Self-measured foot length, cm 
-        
-
-Top of Page
-See heightfoot
-            Data
-
-
-idealwt
-Actual weight and ideal weight for n=182 college students.
-      Actual weights were reported by the students The "ideal"
-      weight is the response to, "What is your ideal weight?"
-      The data were collected in the Fall semester of 1999. (Source:
-      William Harkness, Pennsylvania State University)
-There are four columns of data:
-Column   Name          
-      Description 
-       C1         sex             
-      Male or Female  
-       C2         actual          
-      Self-reported weight, pounds  
-       C3         ideal            
-      Student's ideal weight, pounds  
-       C4         diff               
-      Difference between actual and ideal weights  
-        
-
-Top of Page
-See idealwt Data
-
-
-idealwtmen
-Actual and ideal weights for the n=63 males in the idealwt
-      data set. (Source: A subset of the idealwt data
-      set)
-There are four columns of data:
-Column   Name          
-      Description 
-       C1         sex             
-      Male for all rows  
-       C2         actual          
-      Self-reported weight, pounds  
-       C3         ideal            
-      Student's ideal weight, pounds  
-       C4         diff               
-      Difference between actual and ideal weights  
-        
-
-Top of Page
-See idealwtmen Data
-
-
-idealwtwomen
-Actual and ideal weights for the n=119 females in the idealwt
-      data set. (Source: A subset of the idealwt data
-      set)
-There are four columns of data:
-Column   Name          
-      Description 
-       C1         sex             
-      Female for all rows  
-       C2         actual          
-      Self-reported weight, pounds  
-       C3         ideal            
-      Student's ideal weight, pounds  
-       C4         diff               
-      Difference between actual and ideal weights  
-        
-
-Top of Page
-See idealwtwomen
-            Data
-
-
-letters
-A sample of 63 students wrote as many letters of the alphabet,
-      in order as capital letters, as they could in 15 seconds using
-      their dominant hand, and then repeated this task using their
-      nondominant hand. The variables dom and nondom
-      contain the raw data for the results. (Source: Laura Simon,
-      Pennsylvania State University)
-There are three columns of data:
-Column   Name          
-      Description 
-       C1         sex             
-      Male or Female  
-       C2         dom            
-      Number of letters printed with dominant hand in 15 seconds 
-
-       C3         nondom      
-      Number of letters printed with non-dominant hand in 15 seconds 
-
-        
-
-Top of Page
-See letters Data
-
-
-MusicCDs
-Responses by n = 24 college students to the question, "About
-      how many music CDs do you own?"  Data are used for
-      Example 2.7. (Source: The authors.) 
-There are two columns of data: 
-Column   Name          
-      Description 
-       C1         CDs             
-      Number of music CDs owned 
-       C2         Sex              
-      Male or Female  
-        
-
-Top of Page
-See MusicCDs Data
-
-
-oldfaithful
-Data for n = 299 eruptions of the Old Faithful geyeser.
-      (Source: Hand, et. al., 1994, A Handbook of
-      Small Data Sets ) 
-There are two columns of data: 
-Column   Name          
-      Description 
-       C1         Duration     
-      Duration of the eruption (minutes)
-       C2         TimeNext   
-      Time until next eruption (minutes)  
-        
-
-Top of Page
-See
-            oldfaithful Data
-
-
-pennstate1
-Data from n=190 college students in a statistical literacy
-      class. The survey is described in Section 2.1 of the text, and
-      the data are the basis for several examples in Chapter 2. 
-      (Source: The authors)
-There are nine columns of data:
-Column   Name            
-      Description 
-       C1         Sex               
-      Male or Female  
-       C2         HrsSleep      
-      Hours of sleep the previous night  
-       C3         SQpick         
-      Choice of either S or Q  
-       C4         Height          
-      Reported height, inches  
-       C5         RandNumb  
-      "Random" pick of a number between 1 and 10 
-
-       C6         Fastest           
-      Fastest speed ever driven, mph  
-       C7         RtSpan          
-      Measured stretched right handspan, cm  
-       C8         LftSpan         
-      Measured stretched left handspan, cm  
-       C9         Form              
-      For SQpick variable, order of listing S and Q on survey
-      form 
-        
-
-Top of Page
-See pennstate1 Data
-
-
-pennstate1F
-Data from the n=103 females in the pennstate1 data
-      set. (Source: The data are a subset of the pennstate1
-      data set.)
-There are nine columns of data:
-Column   Name            
-      Description 
-       C1         Sex               
-      Female 
-       C2         HrsSleep      
-      Hours of sleep the previous night  
-       C3         SQpick         
-      Choice of either S or Q  
-       C4         Height          
-      Reported height, inches  
-       C5         RandNumb  
-      "Random" pick of a number between 1 and 10 
-
-       C6         Fastest           
-      Fastest speed ever driven, mph  
-       C7         RtSpan          
-      Measured stretched right handspan, cm  
-       C8         LftSpan         
-      Measured stretched left handspan, cm  
-       C9         Form              
-      For SQpick variable, order of listing S and Q on survey
-      form 
-        
-
-Top of Page
-See pennstate1F Data
-
-
-pennstate1M
-Data from the n=87 males in the pennstate1 data set.
-      (Source: The data are a subset of the pennstate1
-      data set.)
-There are nine columns of data:
-Column   Name            
-      Description 
-       C1         Sex               
-      Male 
-       C2         HrsSleep      
-      Hours of sleep the previous night  
-       C3         SQpick         
-      Choice of either S or Q  
-       C4         Height          
-      Reported height, inches  
-       C5         RandNumb  
-      "Random" pick of a number between 1 and 10 
-
-       C6         Fastest           
-      Fastest speed ever driven, mph  
-       C7         RtSpan          
-      Measured stretched right handspan, cm  
-       C8         LftSpan         
-      Measured stretched left handspan, cm  
-       C9         Form              
-      For SQpick variable, order of listing S and Q on survey
-      form 
-        
-
-Top of Page
-See pennstate1M Data
-
-
-pennstate2
-Data from n=205 students in a statistics class for students
-      in the social and behavioral sciences. The survey was done in
-      the Spring semester of 2000. (Source: The authors)
-There are eight columns of data:
-Column   Name          
-      Description 
-       C1         Sex            
-      Male or Female  
-       C2         EarPrces   
-      Total ear pierces in two ears  
-       C3         Tattoo       
-      Does student have a tattoo (Yes or No)  
-       C4         CDs           
-      Student's estimate of how many music CDs he/she owns 
-
-       C5         Height       
-      Self-reported height in inches  
-       C6         HtChoice   
-      Height student would choose to be if they could choose any
-      height.  
-       C7         Looks        
-      On a scale of 0-9, importance of looks (0) versus personality
-      (9)  
-       C8         Friends      
-      Sex it's easiest to make friends with (Opposite, Same, No
-      Diff) 
-        
-
-Top of Page
-See pennstate2
-            Data
-
-
-pennstate3
-Data from n=227 students in a statistics class for students
-      in the social and behavioral sciences. The survey was done during
-      the Spring semester of 1997. (Source: William Harkness,
-      Pennsylvania State University)
-There are seven columns of data:
-Column   Name          
-      Description 
-       C1         Sex             
-      Male or Female 
-       C2         WtFeel       
-      Whether student feels he/she is Overweight, Underweight,
-      About Right.  
-       C3         Friends       
-      Sex it's easiest to make friends with (Opposite, Same, No
-      Diff) 
-       C4         atfirst          
-      Do you believe in love at first sight? (Yes or No)
-
-       C5         supernat      
-      Do you believe in the supernatural? (Yes or No)  
-       C6         xtraterr       
-      Do you think there is extraterrestrial life? (Yes or No) 
-
-       C7         grtpers        
-      Would you date someone with a great personality even if 
-                                             
-      you did not find them attractive? (Yes or No)  
-        
-
-Top of Page
-See pennstate3 Data
-
-
-pennstate4
-Data from n=75 students in a statistics class for biology
-      and pre-med students The survey was done during the Spring semester
-      of 1999. (Source: Laura Simon, Pennsylvania State University)
-There are four columns of data:
-Column   Name           
-      Description 
-       C1         Phone         
-      Minutes spent talking on phone in typical week  
-       C2         Exercise     
-      Minutes spent exercising in typical week  
-       C3         BookCost   
-      Amount spent on textbooks for present semester, dollars 
-
-       C4         Sex              
-      Male or Female  
-        
-
-Top of Page
-See pennstate4
-            Data
-
-
-pennstate5
-Data from n=175 students in a statistics class for liberal
-      arts and social science students The survey was done during the
-      Spring semester of 2000. (Source: The authors.) 
-There are three columns of data: 
-Column   Name           
-      Description 
-       C1         TV                
-      Hours spent watching television in a typical day.  
-       C2         Shower         
-      Minutes spent taking typical shower  
-       C3         Sex               
-      Male or Female  
-        
-
-Top of Page
-See pennstate5
-            Data
-
-
-perhouse
-Persons per household in the United States in Census years
-      from 1850 to 2000. (Source: The World Almanac and Book
-      of Facts, 1999, p. 383 and the U.S. Census Bureau)
-There are two columns of data:
-Column   Name          
-      Description 
-       C1         year           
-      year of Census  
-       C2         perhouse   
-      Persons per household in U.S.  
-        
-
-Top of Page
-See perhouse Data
-
-
-physical
-Physical measurements for n=55 college students. Measurements
-      were made by the students during a class activity. (Source:
-      William Harkness, Pennsylvania State University.)
-There are ten columns of data:
-Column   Name          
-      Description 
-       C1         Sex             
-      Male or Female  
-       C2         Height         
-      Self-reported height, inches  
-       C3         LeftArm      
-      Length of left forearm, cm  
-       C4         RtArm        
-      Length of right forearm, cm  
- C5         LeftFoot      
-      Length of left foot, cm  
-       C6         RtFoot         
-      Length of right foot, cm  
-       C7         LeftHand    
-      Width of left palm, cm  
-       C8         RtHand       
-      Width of right palm, cm  
-       C9         HeadCirc     
-      Head circumference, cm  
-       C10       nose              
-      Nose length, cm  
-        
-
-Top of Page
-See physical Data
-
-poverty
-Poverty rates, teen birth rates and violent crime rate in
-      the states of the U.S and in the Disctirct of Columbia. Data
-      are for the year 2000. (Source: U.S. Census Bureau, www.census.gov)
-There are three columns of data:
-Column   Name          
-      Description 
-       C1         Location       State
-      name  
-       C2         PovPct         
-      Percentage of population living in households with income below
-      "poverty level"  
- C3        
-      Brth15to17   Birth rate for females 15 to 17 years
-      old = births per 1,000 persons in group..  
-      C4         Brth18to19   Birth
-      rate for females 18 to 19 years old = births per 1,000 persons
-      in group.     
-       C5         ViolCrime   
-       Violent crime rate in state
- C6        
-      TeenBrth      Birth rate for females
-      15 to 19 years old = births per 1,000 persons in group
-        
-
-Top of Page
-See poverty Data
-
-
-ProfBooks
-Number of pages, price, and whether the book is hardcover
-      or softcover for n=15 books on a professor's bookshelf. (Source:
-      The authors)
-There are three columns of data:
-Column   Name          
-      Description 
-       C1         Pages          
-      Number of pages in book  
-       C2         Price            
-      Cost of book, dollars  
- C3        
-      Type            
-      Type of book (Hardcover or Softcover)  
-        
-
-Top of Page
-See ProfBooks
-            Data
-
-
-pulsemarch
-Students in a statistics class measured their pulse rates
-      before and after marching in place for one minute. The sample
-      size is n = 40.   (Source: Laura Simon, Pennsylvania
-      State University)
-There are three columns of data:
-Column   Name           
-      Description 
-       C1         Sex              
-      Male or Female 
-       C2         Before         
-      Pulse rate before marching in place 
-       C3         After             Pulse
-      rate after marching in place for one minute  
-        
-
-Top of Page
-See pulsemarch
-            Data
-
-
-rainfall
-Annual rainfall in inches in Davis, California from 1951 to
-      1997. The data ae used for Example 2.9. 
-There are two columns of data: 
-Column   Name           
-      Description 
-       C1         Year              
-      Ranges from 1951 to 1997. 
-       C2         Rainfall        
-      Annual rainfall in inches 
-        
-
-Top of Page
-See rainfall Data
-
-
-sats98
-For the 50 States and the District of Columbia, the statewide
-      mean verbal and math SAT scores in 1998. The data set also includes
-      the estimated percent of high graduates who took the SAT in each
-      state. (Source: The World Almanac and Book of Facts, 1999,
-      p. 245)
-There are four columns of data:
-Column   Name          
-      Description 
-       C1         State           
-      State abbreviation  
-       C2         Verbal         
-      Mean verbal SAT in state  
-       C3         Math           
-      Mean math SAT in state  
-       C4         PctTook      
-      Percent of graduates who took the SAT  
-        
-
-Top of Page
-See sats98 Data
-
-
-signdist
-For n=30 drivers, the driver's age and the maximum distance
-      at which the driver can read a highway sign at nigh. The data
-      are used in examples in Chapters 5 and 14. (Source: Based
-      on data collected by Last Resource, Inc., Bellefonte, PA)
-There are two columns of data:
-Column   Name          
-      Description 
-        C1        Age            
-      Driver's age  
-        C2        Distance    
-      Distance at which sign can be read, feet.  
-        
-
-Top of Page
-See signdist Data
-
-
-sleepstudy
-Hours of sleep the previous and hours of studying the previous
-      day for n=116 students The data are used for a correlation example
-      in Chapter 5.. (Source: The authors)
-There are two columns of data:
-Column   Name          
-      Description 
-       C1         Sleep         
-      Hours of sleep the previous day  
-       C2         Study         
-      Hours of studying the previous day.       
-
-        
-
-Top of Page
-See sleepstudy Data
-
-
-speedlimit
-Highway death rates (per 100 million vehicle miles of travel)
-      and maximum speed limits in 10 countries. (Source: "Fifty-five
-      mph speed limit is no safety guarantee," D. J. Rivkin, New
-      York Times (letters to the editor), Nov. 25, 1986, p. 26.) 
-There are three columns of data:
-Column   Name          
-      Description 
-       C1         country
-
-       C2         death          
-      Highway accident death rate per 100 million miles of travel 
-
-       C3         limit            
-      Maximum speed limit  
-        
-
-Top of Page
-See speedlimit Data
-
-
-Student0405
-Data collected during 2004 and 2005 from students in statistics
-      classes at a large state university in the northeastern United
-      States. (Source: The authors.) 
-There are three columns of data and n = 690:
-Column   Name          
-      Description 
-       C1         Sex
-                   Coded
-      Female, Male
-       C2         GPA          
-       Grade point average as reported by student
-      C3         ReligImp
-          How important student feels religon
-      is in their life.
-       C4         MissClass 
-       Number of classes student reports missing in typical
-      week
-       C5         Seat
-                
-       Usual classroom seat for student (Front, Middle, Back)
-       C6         PartyDays   Days
-      per month student goes to parties
-      C7         Study        
-        Hours per week of studying, as reported by student
-
-
-Top of Page
-See Student0405 Data
-
-
-temperature
-Geographic latitude and mean temperature in January, April,
-      and August for 20 cities in the United States. (Source: The World
-      Almanac and Book of Facts, 1999, p. 220 and p. 456)
-There are five columns of data:
-Column   Name          
-      Description 
-       C1         city             
-      City name  
-       C2         latitude       
-      Geographic latitude of city  
-       C3         JanTemp    
-      Mean January temperature, Fahrenheit  
-       C4         AprTemp    
-      Mean April temperature, Fahrenheit  
-       C5         AugTemp   
-      Mean August temperature, Fahrenheit  
-        
-
-Top of Page
-See temperature
-            Data
-
-
-turkeypop
-Data from an experiment done to examine the "anchoring"
-      effect, which is that a person's estimate of a quantity is influenced
-      by numbers given in prior questions. At a conference for teachers
-      of business statistics, n = 45 participants were randomized to
-      two experimental groups. One group answered the question "Do
-      you think the population of Turkey is more than 10 million?" 
-      The other group answered the question " Do you think the
-      population of Turkey is more than 70 million?" All participants
-      were then asked to estimate the population of Turkey, to the
-      nearest million. If the anchoring effect holds, participants
-      asked if the population is more than 70 million would tend to
-      give higher estimates than those who were asked if it is more
-      than 10 million. (Source: The authors)
-There are two columns of data:
-Column   Name          
-      Description 
-       C1         Form          
-      The value given in the first question asked (either 10 or
-      70). 
-       C2         Estimate    
-      Participants estimate of the population of Turkey (millions) 
-
-        
-
-Top of Page
-See turkeypop
-            Data
-
-
-UCDavis1
-Data from n=173 college students in two different statistics
-      classes. One class was for students not in the liberal arts (n=148),
-      while the other class was for students in the liberal arts (n=25).
-      The data were collected in the Spring quarter of 2000. (Source:
-      The authors)
-There are twelve columns of data:
-Column    Name          
-      Description 
-       C1         Sex             
-      Male or Female 
-       C2         TV              
-      Hours spent watching television each week.  
-       C3         computer    
-      Hours spent at a computer each week.  
-       C4         Sleep          
-      Hours of sleep previous night.  
-       C5         Seat            
-      Typical classroom seat location (Front Middle Back) 
-
-       C6         alcohol        
-      Number of alcoholic beverages consumed each week  
-       C7         Height         
-      Self-reported height, inches  
-       C8         momheight  
-      Mother's height, inches  
-       C9         dadheight    
-      Father's height, inches  
-       C10       exercise      
-      Hours spent exercising each week  
-       C11       GPA            
-      Student's GPA  
-       C12       class            
-      Liberal Arts or Non Liberal Arts  
-        
-
-Top of Page
-See UCDavis1 Data
-
-
-UCDavis1F
-Data for the n=94 females in the UCDavis1 data set.
-      (Source: This is a subset of the UCDavis1 data
-      set.)
-There are twelve columns of data:
-Column    Name          
-      Description 
-       C1         Sex             
-      Female 
-       C2         TV              
-      Hours spent watching television each week.  
-       C3         computer    
-      Hours spent at a computer each week.  
-       C4         Sleep          
-      Hours of sleep previous night.  
-       C5         Seat            
-      Typical classroom seat location (Front Middle Back) 
-
-       C6         alcohol        
-      Number of alcoholic beverages consumed each week  
-       C7         Height         
-      Self-reported height, inches  
-       C8         momheight  
-      Mother's height, inches  
-       C9         dadheight    
-      Father's height, inches  
-       C10       exercise      
-      Hours spent exercising each week  
-       C11       GPA            
-      Student's GPA  
-       C12       class            
-      Liberal Arts or Non Liberal Arts  
-        
-
-Top of Page
-See UCDavis1F
-            Data
-
-
-UCDavis1M
-Data for the n=79 males in the UCDavis1 data set. (Source:
-      This is a subset of the UCDavis1 data set.)
-There are twelve columns of data:
-Column    Name          
-      Description 
-       C1         Sex             
-      Male 
-       C2         TV              
-      Hours spent watching television each week.  
-       C3         computer    
-      Hours spent at a computer each week.  
-       C4         Sleep          
-      Hours of sleep previous night.  
-       C5         Seat            
-      Typical classroom seat location (Front Middle Back) 
-
-       C6         alcohol        
-      Number of alcoholic beverages consumed each week  
-       C7         Height         
-      Self-reported height, inches  
-       C8         momheight  
-      Mother's height, inches  
-       C9         dadheight    
-      Father's height, inches  
-       C10       exercise      
-      Hours spent exercising each week  
-       C11       GPA            
-      Student's GPA  
-       C12       class            
-      Liberal Arts or Non Liberal Arts  
-        
-
-Top of Page
-See UCDavis1M
-            Data
-
-
-UCDavis2
-Data from n=239 college students. The data were collected
-      in the Fall quarter of 2000. (Source: The authors)
-There are fourteen columns of data:
-Column    Name          
-      Description 
-       C1         Sex             
-      Male or Female  
-       C2         GPA           
-      Student's GPA  
-       C3         Seat            
-      Typical classroom seat location (Front Middle Back) 
-
- C4       
-      alcohol         
-      Number of alcoholic beverages consumed in typical week 
-
-       C5         WtFeel        
-      Does student feel he/she is Oveweight, Underweight, About
-      Right?  
-       C6         Height         
-      Self-reported height, inches  
-       C7         IdealHt        
-      Student's choice of ideal height, inches  
-       C8         momheight   
-      Mother's height, inches  
-       C9         dadheight     
-      Father's height, inches  
-       C10       Hand            
-      Are you   Left-handed or Right-handed ?  
-       C11       Looks           
-      On a scale of 1-25 importance of personality (1) versus looks
-      (25) 
-       C12       Friends        
-      Who is easiest to make friends with? (Opposite sex  
-      Same sex)  
-       C13       Cheat           
-      Would you tell the instructor if you saw somebody cheating
-      on an exam? 
-       C14       Smoke          
-      Does student smoke at least one pack of cigarettes per week? 
-
-        
-
-Top of Page
-See UCDavis2 Data
-
-
-UCDchap5
-Self-reported heights and parents' heights for n=18 college
-      students. (Source: A subset of the dataset UCDavis2)
-There are five columns of data:
-Column   Name             
-      Description 
-       C1         Sex               
-      Coded as M or F  
-       C2         height            
-      Student's height, in inches  
-       C3         momheight    
-      Mother's height, in inches (as reported by student)  
-       C4         dadheight      
-      Father's height, in inches (as reported by student)  
-       C5         midparent      
-      Average of parents' heights, in inches  
-        
-
-Top of Page
-See UCDchap5 Data
-
-
-UCDwomht
-Self-reported heights and parents' heights for n=94 college
-      women. (Source: A subset of the dataset UCDavis1)
-There are four columns of data:
-Column   Name            
-      Description 
-       C1         height            
-      Student's height, in inches  
-       C2         momheight    
-      Mother's height, in inches (as reported by student)  
-       C3         dadheight      
-      Father's height, in inches (as reported by student)  
-       C4         midparent     
-      Average of parents' heights, in inches  
-        
-
-Top of Page
-See UCDwomht Data
-
-
-
-wineratings
-Quality ratings of Pinot Noir wines made in three different
-      regions. (Source: Minitab, Inc.)
-There are four columns of data:
-Column   Name            
-      Description 
-       C1         Region          
-      Region, given as a numerical value (1,2,3) 
-       C2         Aroma           
-      Rating of wine's aroma  
-       C3         Flavor           
-      Rating of wines' flavor  
-       C4         Quality           
-      Rating of wine's overal quality 
-        
-
-Top of Page
-See wineratings Data
-
-
-wthghtM
-Weight and height data for n=43 college men. The data are
-      used in examples in Chapter 14. (Source: Laura Simon,
-      Pennsylvania State University) 
-There are three columns of data:
-Column   Name            
-      Description 
-       C1         Sex               
-      Male for all 43 rows.  
-       C2         Height           
-      Self-reported height in inches  
-       C3         Weight          
-      Self-reported weights in pounds  
-        
-
-Top of Page
-See wthghtM Data
-
-
-YouthRisk
-Data from the 2001 Youth Risk Behavior Surveillance System
-      survey of U.S. high school students. These data are for 12th
-      graders, aged 17 and 18 years old, who say they drive. 
-(Source: http://www.cdc.gov/nccdphp/dash/yrbs/) 
-There are five columns of data: 
-Column   Name             
-      Description 
-       C1         Sex                
-      Male or Female 
-       C2         Grades          
-      Grades usually achieved in school  
-       C3         DaysCigs      
-      Days student smoked cigarettes in the past 30 days (categorized) 
-
-       C4         DaysDrnk     
-      Days on which student drank alcohol during past 30 days (categorized) 
-
-       C5         SeatBelt        
-      How often student wears seatbelt when driving (categorized) 
-
-        
-
-Top of Page
-See YouthRisk Data
-
-
-YouthRisk03
-Data from the 2003 Youth Risk Behavior Surveillance System
-      survey of U.S. high school students. These data are for 12th
-      graders, aged 17 and 18 years old, who say they drive. 
-(Source: http://www.cdc.gov/nccdphp/dash/yrbs/) 
-There are five columns of data: 
-Column   Name             
-      Description 
-       C1         Sex                
-      Male or Female 
-       C2         Grades          
-      Grades usually achieved in school  
-       C3         WtAction      
-      What student has tried to do about their weight during the past
-      90 days.  
-       C4         SeatBelt        
-      How often student wears seatbelt when driving (categorized) 
-
-       C5         Sunscreen      How
-      often student uses sunscreen when out in the sun for more than
-      1 hr.  
-        
-
-Top of Page
-See YouthRisk03 Data
-
-
-       
-    
-
-
-
-
-
- 
- 
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
+Week 9: CIA Info Session – Women in Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+About
+
+What We Do
+Current Officers
+Previous Officers
+Awards and Accomplishments
+History of WICS
+
+
+Events
+
+Events Calendar
+Blogs
+Conferences
+
+vGHC 2021
+vGHC 2020
+CWIC Socal 2018
+Init (Together)
+
+
+
+
+Community Outreach
+
+About Community Outreach
+Just Code It
+Bytes of Code
+
+Bytes of Code 2019
+Bytes of Code Summer 2018
+
+
+#innovate
+
+#innovate 2019
+#innovate Spring 2018
+
+
+#GirlsKnowCS 2018 Conference
+ExploreICS
+
+
+Join Us!
+
+Membership Signup
+Apply to WICS Committee
+Mentorship Program
+
+
+Contact Us
+
+Contact Us
+Support Us
+
+
+ 
+
+
+
+
+
+
+
+Blogs 
+
+
+
+
+
+
+
+
+
+
+
+
+Info Session 
+
+
+Week 9: CIA Info Session 
+
+ 12/01/201312/01/2013admin
+
+
+
+             « prev      1   2   3      next »  (10 Photos)
+Monday, November 25th, the CIA hosted an info session with WICS. 25 people came and had a chance to hear about multiple job opportunities, benefits, and application processes at the CIA. There were also handouts, free swag, and food at the event.
+The CIA offers many internship opportunities for freshmen, sophomores, and graduates. All of these opportunities are located in Washington DC and covers travel fee, more information can be found on their website. Working for the CIA provides many benefits such as health insurance and credit union.
+This session taught WICS a lot about what a company looks for in applications, resumes, and cover letters. Working for the CIA is not as hard as it seems and many misconceptions about them were cleared!
+Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)
+
+Related
+ 
+
+ 
+
+Post navigation
+Week 8: Thanksgiving PotluckWeek 10: Hour of Code
+ 
+
+
+
+
+
+
+
+
+
+Upcoming Events
+
+
+
+
+Fall 2022 Week 3: WICS Games
+
+
+
+October 10 @ 7:00 pm - 9:00 pm 
+
+
+
+
+Fall 2022 Week 4: Intro to UI/UX Design with Design@UCI
+
+
+
+October 17 @ 6:30 pm - 8:00 pm 
+
+
+
+View All Events
+
+ 
+
+ContactContact Us
+Facebook
+Instagram
+Twitter
+Medium
+ 
+
+Search
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+			                            © All right reserved                                    
+Portfolio Web by Acme Themes 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+×
+Booking Table
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

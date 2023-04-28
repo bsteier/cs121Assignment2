@@ -24,20 +24,18 @@ def scraper(url, resp):
             fails.write(str(resp.error) + "\n")
             fails.write("\n")
         return list()
-    
-    
+
     curUrl = ScraperManager.Manager(url, resp)
+    scraperHelper.get_longest_page(url, curUrl.token_freq)
+    scraperHelper.get_unique_pages()
+    
+    # check information level and compare hash similarities
+    if checker.isLowQual(curUrl.get_total_word_count()):
+        return list()
     if data.compareHashSimilarity(curUrl.hashCode):
         return list()
     
     
-
-    with open("unique.txt", "r") as u:
-        count = int(u.read())
-        count += 1
-    with open("unique.txt", "w") as u:
-        u.write(str(count))
-
     links = extract_next_links(url, resp)
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
 
@@ -67,7 +65,6 @@ def extract_next_links(url, resp):
     
     parsed = urlparse(url)
 
-  #  print("URL", urlparse(url)== urlparse("https://www.ics.uci.edu"))
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
 
     hyperlinks = soup.find_all("a", href=True) #finds all elements w/ an href
@@ -114,9 +111,13 @@ def is_valid(url):
             return False
         if url.lower().count("&do=media") and url.lower().count("doku.php") or url.lower().endswith("javascript:void(0)"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
             return False
-        if url.count(".php") > 1 or url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"):
+        if url.count("javascript:") or url.count(".php") > 1 or url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"):
             return False
         if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):
+            return False
+        if url.endswith(".war"):
+            return False
+        if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query:
             return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"

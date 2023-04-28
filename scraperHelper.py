@@ -72,3 +72,17 @@ def get_longest_page(url, token_freq:dict):
             with open("longest.txt", "w") as v:
                 v.write(str(total_words) + "\n")
                 v.write(url)
+
+def get_unique_pages():
+    """
+    Writes to a file whenever a unique URL is found
+    """
+    try:
+        with open("unique.txt", "r") as u:
+            count = int(u.read())
+            count += 1
+        with open("unique.txt", "w") as u:
+            u.write(str(count))
+    except:
+        with open("unique.txt", "w") as u:
+            u.write(str(1))
