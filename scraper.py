@@ -50,7 +50,8 @@ def extract_next_links(url, resp):
     
     # CHECK SIMILARITY against problem sites
     hashCode = getHash(resp)
-    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php}
+    problemSites = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000'
+                    , '1000010100101000010010011001111001100001101110101110101001110000'}  # {http://intranet.ics.uci.edu, https://www.ics.uci.edu/alumni/index.php, http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL//ugrad/policies/Add_Drop_ChangeOption}
     for h in problemSites:
         if simHash.calc_similarity(hashCode, h):
             return list()
@@ -84,20 +85,14 @@ def extract_next_links(url, resp):
         if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
             continue
         if not bool(urlparse(link['href']).netloc): #not absolute
-
-            print("NOT ABSOLUTE")
-            print("current ", url)
-            print(link['href'])
             link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
             if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
-                print("new link", link2)
                 with open("fails2.txt", "a") as fails:
                     fails.write("CURRENT: " + str(url) + "\n")
                     fails.write(link['href'] + '\n')
                     fails.write(link2 + '\n')
                     fails.write("\n")
 
-                print()
                 linksToAdd.append(link2)
                 _visitedLinks[link2] += 1
         else:

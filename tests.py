@@ -33,6 +33,11 @@ class TestSimilarity(unittest.TestCase):
         f2 = '1011000100111110001110111001111101100001011110001011010001110000'  # https://statconsulting.ics.uci.edu
         self.assertFalse(simHash.calc_similarity(f1, f2))
 
+    def test1(self):
+        f1 = "1000010100101000010010011001111001100001101110101110101001110000"  # http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL//ugrad/policies/Add_Drop_ChangeOption
+        f2 = "1001000100111000111010011001111001100001110110101110001000110000"  # http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+        self.assertFalse(simHash.calc_similarity(f1, f2))
+
 class TestRelativeToAbsolute(unittest.TestCase):
     def test1(self):
         url = r'https://www.ics.uci.edu/grad/policies'
@@ -62,6 +67,12 @@ class TestRelativeToAbsolute(unittest.TestCase):
         expected_link = r'https://www.ics.uci.edu/employment/employ_faculty.php'
         self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
 
+    def test5(self):
+        url = r"https://www.ics.uci.edu/community/news/view_news.php?id=2222"
+        scraped = r"../../about/annualreport/index.php"
+
+        expected_link = r"https://www.ics.uci.edu/about/annualreport/index.php"
+        self.assertEqual(scraperHelper.convertToAbsolute(url, scraped), expected_link)
 
 if __name__ == "__main__":
     unittest.main()
