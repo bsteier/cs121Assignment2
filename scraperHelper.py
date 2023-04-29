@@ -12,9 +12,10 @@ def convertToAbsolute(url, link):
     """
     # root-relative URL: means it's relative to the root/netloc of the current website
     # path-relative: means it's relative to the current directory of the base URL
-    if not link:
-        #print("not lionk")
+    if not link:  # link doesn't exist so just return url
         return url
+    if urlparse(link).scheme and urlparse(link).netloc:
+        return link
     if not urlparse(link).scheme and urlparse("https://" + link).netloc:
         if urlparse("https://" + link).netloc == urlparse(url).netloc:
             return urlparse("https://" + link).netloc

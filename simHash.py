@@ -1,6 +1,7 @@
 
 
 HASH_SIZE = 64
+prevHash = dict()
 def _generate_Hash(word:str) -> str:
     """
     Using a polynomial hash function (base^(lengthOfWord) * letter_mapping),
@@ -18,7 +19,7 @@ def _generate_Hash(word:str) -> str:
         temp = base**len(word)
         temp = temp%mod
         hash += (asciiRep * temp)
-
+    prevHash[word] = "{0:064b}".format(hash)
     return "{0:064b}".format(hash)
     
 
@@ -27,7 +28,10 @@ def generate_Fingerprint(token_Freq:dict):
 
     # generating 12-bit hash values
     for token in token_Freq.keys():
-        hash_dict[token] = _generate_Hash(token)
+        if token in prevHash.keys():
+            hash_dict[token] = prevHash[token]
+        else:
+            hash_dict[token] = _generate_Hash(token)
 
     # vector formed by summing weights
     summingWeights = list()
@@ -50,9 +54,9 @@ def generate_Fingerprint(token_Freq:dict):
 
 def calc_similarity(f1, f2) -> bool:
     """
-    threshold: 0.93
+    threshold: 0.875
     """
-    threshold = 0.93
+    threshold = 0.875
     
     assert len(f1) == len(f2), "Fingerprints are not same length"
 

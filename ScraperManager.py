@@ -156,9 +156,9 @@ class ResponseValidity():
         """
         return
     
-    def parseSiteMap(self):
-        """
-        Returns a list of links to crawl based on sitemap.
-        """
-        return
+def parseSiteMap() -> list():
+    """
+    Returns a list of links to crawl based on sitemap.
+    """
+    return
     

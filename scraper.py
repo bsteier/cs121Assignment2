@@ -9,7 +9,7 @@ import scraperHelper
 import os
 import ScraperManager
 
-_visitedLinks = defaultdict(int)
+
 data = ScraperManager.CurrentData()
 
 def scraper(url, resp):
@@ -52,42 +52,29 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    if resp.status != 200: # this means we didn't get the page
-        print("u suck")
-        print(url)
-        print(resp.error)
-        print()
-
+    
+    if resp.status != 200 or not resp.raw_response: # EXTRA CHECK: this means we didn't get the page
         return list()
     
-    if not resp.raw_response:
-        return list()   
-    
+
     parsed = urlparse(url)
 
     soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+    if not isinstance(soup, BeautifulSoup):  # content is not valid for beautiful soup
+        return list()
+    hyperlinks = soup.find_all("a", href=True)  # finds all elements w/ an href
 
-    hyperlinks = soup.find_all("a", href=True) #finds all elements w/ an href
-
-    words = soup.find_all(text=True)
-
-    with open("websitecontents.txt", "w") as text: #write text content onto a file
-        for w in words:
-            text.write(w.text)
-
+    # composing our list of potential URLs
     linksToAdd = list()
     for link in set(hyperlinks):
         if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
             continue
-        if not bool(urlparse(link['href']).netloc): #not absolute
+        else:  # convert
             link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
             if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
-
                 linksToAdd.append(link2)
-                _visitedLinks[link2] += 1
-        else:
-            linksToAdd.append(link['href'])
-            _visitedLinks[link['href']] += 1
+
+
 
     return list(set(linksToAdd))    #removes websites that are duplicates before sending to the frontier
 
@@ -95,21 +82,24 @@ def extract_next_links(url, resp):
 def is_valid(url):
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
-    # There are already some conditions that return False.
+    # There are already some conditions that return False.d
     try:
         parsed = urlparse(url)
-        #print(parsed.geturl())
-        avoidUrls = {r"www.ics.uci.edu/~ziv/ooad/intro_to_se/", r"www.ics.uci.edu/Arcadia/Teamware/docs", r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
+
+        
+        avoidUrls = {r"http://alumni.ics.uci.edu", r"http://fano.ics.uci.edu/", r"http://checkmate.ics.uci.edu", r"www.ics.uci.edu/ugrad/courses/listing.php", r"www.ics.uci.edu/~ziv/ooad/intro_to_se/", r"www.ics.uci.edu/Arcadia/Teamware/docs", r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
         if any(u in url for u in avoidUrls):
+            return False
+        if parsed.path and (len(parsed.path.split("/")) != len(set(parsed.path.split("/")))): #  a path element is repeated
             return False
         if parsed.scheme not in set(["http", "https"]):
             return False
         if not re.search(r"\.ics\.uci\.edu/|\.cs\.uci\.edu/"
                      + r"|\.informatics\.uci\.edu/|\.stat\.uci\.edu/$", url):
             return False  # using regex to see if a url contains one of these domain patterns
-        if parsed.fragment: 
+        if parsed.fragment or any(url.lower().count(a) for a in ("javascript:void(0)", "mailto:", ".bam", ".ff")): # bad endings
             return False
-        if url.lower().count("&do=media") and url.lower().count("doku.php") or url.lower().endswith("javascript:void(0)"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
+        if url.lower().count("&do=media") and url.lower().count("doku.php"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
             return False
         if url.count("javascript:") or url.count(".php") > 1 or url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"):
             return False
@@ -117,7 +107,7 @@ def is_valid(url):
             return False
         if url.endswith(".war"):
             return False
-        if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query:
+        if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
             return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"
