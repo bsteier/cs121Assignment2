@@ -18,11 +18,6 @@ def scraper(url, resp):
     if type(validity) == str and is_valid(validity):
         return [validity]  # if it's a redirect, return the redirected website
     elif not validity:
-        with open("fails.txt", "a") as fails:
-            fails.write(str(url) + "\n")
-            fails.write(str(resp.status) + "\n")
-            fails.write(str(resp.error) + "\n")
-            fails.write("\n")
         return list()
 
     curUrl = ScraperManager.Manager(url, resp)
@@ -48,6 +43,7 @@ def scraper(url, resp):
                 for t in tba_links:
                     downloaded.write(t + '\n') 
     curUrl.save_data(len(tba_links), curUrl.get_total_word_count())
+    scraperHelper.getICSSubDomains(url, len(tba_links))
     return tba_links
 
 def extract_next_links(url, resp):
@@ -67,10 +63,16 @@ def extract_next_links(url, resp):
 
     parsed = urlparse(url)
 
-    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
-    if not isinstance(soup, BeautifulSoup):  # content is not valid for beautiful soup
+    try:
+        soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+        hyperlinks = soup.find_all("a", href=True)  # finds all elements w/ an href
+    except RecursionError:    # our beautiful soup object is not in html/cannot be read
+        with open("fails.txt", "a") as fails:
+            fails.write(str(url) + "\n")
+            fails.write(str(resp.status) + "\n")
+            fails.write(str(resp.error) + "\n")
+            fails.write("\n")
         return list()
-    hyperlinks = soup.find_all("a", href=True)  # finds all elements w/ an href
 
     # composing our list of potential URLs
     linksToAdd = list()
@@ -95,7 +97,10 @@ def is_valid(url):
         parsed = urlparse(url)
 
         
-        avoidUrls = {r"http://alumni.ics.uci.edu", r"http://fano.ics.uci.edu/", r"http://checkmate.ics.uci.edu", r"www.ics.uci.edu/ugrad/courses/listing.php", r"www.ics.uci.edu/~ziv/ooad/intro_to_se/", r"www.ics.uci.edu/Arcadia/Teamware/docs", r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
+        avoidUrls = {r"http://alumni.ics.uci.edu", r"http://fano.ics.uci.edu/", r"http://checkmate.ics.uci.edu", r"www.ics.uci.edu/ugrad/courses/listing.php", r"www.ics.uci.edu/~ziv/ooad/intro_to_se/",
+        }
+                #r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
+        # r"www.ics.uci.edu/Arcadia/Teamware/docs"
         if any(u in url for u in avoidUrls):
             return False
         if parsed.path: # check for repeated paths
@@ -114,16 +119,14 @@ def is_valid(url):
             return False
         if len(parsed.query) > 50:  #long queries = bad 
             return False
-        if parsed.fragment or any(url.lower().count(a) for a in ("javascript:void(0)", "mailto:", ".bam", ".ff")): # bad endings
+        if parsed.fragment or any(url.lower().count(a) for a in ("javascript:", "mailto:", ".bam", ".ff", ".php", ".war")): # bad endings
             return False
-        if url.lower().count("&do=media") and url.lower().count("doku.php"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
+        if url.lower().count("&do=media") and url.lower().count("doku.php"):
             return False
-        if url.count("javascript:") or url.count(".php") > 1 or url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"):
+        if url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"): # links that are low content  (ics: attempts to download, stasio: links to ppts)
             return False
-        if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):
-            return False
-        if url.endswith(".war"):
-            return False
+      #  if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):  # in wics, there are many different ways to share a page but each query with share leads to the same page
+       #     return False
         if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
             return False
         return not re.match(

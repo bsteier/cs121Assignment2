@@ -88,3 +88,13 @@ def get_unique_pages():
         with open("unique.txt", "w") as u:
             u.write(str(1))
 
+
+def getICSSubDomains(url, numOfLinks):
+    """
+    Writes to a file the ICSSubDomains and the number of links scraped on that page
+    """
+    parsed = urlparse(url)
+    if parsed.netloc.count("ics.uci.edu") and not parsed.path:
+        with open("ICSSUBDomain.txt", "a") as ics:
+            ics.write(str(url) + ", " + str(numOfLinks))
+            ics.write("\n")
