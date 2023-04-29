@@ -4,6 +4,9 @@ import json
 import tokenizer
 from bs4 import BeautifulSoup
 import simHash
+from itertools import islice  #used to cut a dictionary
+from collections import defaultdict
+import json
 
 STOPWORDS = ['a', 'about', 'above', 'after', 'again', 'against', 'all', 'am', 'an', 'and', 'any', 'are', "aren't", 'as', 'at', 'be', 'because', 'been', 'before', 'being', 'below', 'between', 'both', 'but', 'by', 
              "can't", 'cannot', 'could', "couldn't", 'did', "didn't", 'do', 'does', "doesn't", 'doing', "don't", 'down', 'during', 'each', 'few', 'for', 
@@ -16,12 +19,15 @@ STOPWORDS = ['a', 'about', 'above', 'after', 'again', 'against', 'all', 'am', 'a
              'when', "when's", 'where', "where's", 'which', 'while', 'who', "who's", 'whom', 'why', "why's", 'with', "won't", 'would', "wouldn't", 
              'you', "you'd", "you'll", "you're", "you've", 'your', 'yours', 'yourself', 'yourselves']
 
+
 class Manager:
+    MOSTCOMMONWORDS = defaultdict(int)
     def __init__(self, url, resp):
         self.resp = resp
         self.parsed = urlparse(url)
         self.token_freq = self._get_tokens()
         self.hashCode = self._get_hash()
+        self.getMostCommonWords()
 
     def save_data(self, numOfLinks, wordCount):
        # if parsed_url.netloc == "www.ics.uci.edu":
@@ -51,7 +57,7 @@ class Manager:
 
         with open("websitecontents.txt", "w") as text: #write text content onto a file
             for w in words:
-                if len(w) <= 1 or w in STOPWORDS:
+                if len(w.strip()) <= 1 or w in STOPWORDS:
                     continue
                 else:
                     text.write(w.text)
@@ -67,6 +73,23 @@ class Manager:
         Returns the number of words found on a web page.
         """
         return sum(self.token_freq.values())
+    
+    def getMostCommonWords(self):
+        """
+        Writes to a JSON file a dictionary that contains the most common words.
+        """
+        for key, value in self.token_freq.items():
+            self.MOSTCOMMONWORDS[key] += value
+
+        sortedL = sorted(self.MOSTCOMMONWORDS.items(), key=lambda x: x[1], reverse=True)
+        sortedDict = dict()
+        for key, value in sortedL:
+            if key not in STOPWORDS and len(key) >1 and value > 1000:
+                sortedDict[key]=value
+
+        
+        with open("commonWords.json", "w") as json_file:
+            json.dump(sortedDict, json_file)
 
 class CurrentData():
     problemHash = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
@@ -161,4 +184,5 @@ def parseSiteMap() -> list():
     Returns a list of links to crawl based on sitemap.
     """
     return
+
     

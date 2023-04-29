@@ -87,3 +87,4 @@ def get_unique_pages():
     except:
         with open("unique.txt", "w") as u:
             u.write(str(1))
+

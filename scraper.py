@@ -37,8 +37,16 @@ def scraper(url, resp):
     
     
     links = extract_next_links(url, resp)
+                
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
-
+    if (url == "https://www.stat.uci.edu"):
+            with open("stats.txt", "a") as downloaded:
+                downloaded.write(url + '\n')
+                for l in links:
+                    downloaded.write(l + '\n') 
+                downloaded.write('\n')
+                for t in tba_links:
+                    downloaded.write(t + '\n') 
     curUrl.save_data(len(tba_links), curUrl.get_total_word_count())
     return tba_links
 
@@ -90,13 +98,22 @@ def is_valid(url):
         avoidUrls = {r"http://alumni.ics.uci.edu", r"http://fano.ics.uci.edu/", r"http://checkmate.ics.uci.edu", r"www.ics.uci.edu/ugrad/courses/listing.php", r"www.ics.uci.edu/~ziv/ooad/intro_to_se/", r"www.ics.uci.edu/Arcadia/Teamware/docs", r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
         if any(u in url for u in avoidUrls):
             return False
-        if parsed.path and (len(parsed.path.split("/")) != len(set(parsed.path.split("/")))): #  a path element is repeated
-            return False
+        if parsed.path: # check for repeated paths
+            p = [p for p in parsed.path.split("/") if p]
+
+            visited = set()
+            for token in p:
+                if token not in visited:
+                    if p.count(token) > 2:  #if a path part is repeated more tokens
+                        return False
+                    else:
+                        visited.add(token) 
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if not re.search(r"\.ics\.uci\.edu/|\.cs\.uci\.edu/"
-                     + r"|\.informatics\.uci\.edu/|\.stat\.uci\.edu/$", url):
-            return False  # using regex to see if a url contains one of these domain patterns
+        if not any(a in url for a in (".ics.uci.edu/", ".cs.uci.edu/", ".informatics.uci.edu/", ".stat.uci.edu/" )):
+            return False
+        if len(parsed.query) > 50:  #long queries = bad 
+            return False
         if parsed.fragment or any(url.lower().count(a) for a in ("javascript:void(0)", "mailto:", ".bam", ".ff")): # bad endings
             return False
         if url.lower().count("&do=media") and url.lower().count("doku.php"): #re.match(r"(?=&do=media)(?=doku.php)", url.lower()):
