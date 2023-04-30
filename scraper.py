@@ -24,26 +24,24 @@ def scraper(url, resp):
     scraperHelper.get_longest_page(url, curUrl.token_freq)
     scraperHelper.get_unique_pages()
     
-    # check information level and compare hash similarities
-    if checker.isLowQual(curUrl.get_total_word_count()):
-        return list()
+    # compare hash similarities
     if data.compareHashSimilarity(curUrl.hashCode):
+        with open("fails.txt", "a") as fails:
+            fails.write("SIMILAR " + str(resp.url) + "\n")
+
         return list()
     
     
     links = extract_next_links(url, resp)
                 
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
-    if (url == "https://www.stat.uci.edu"):
-            with open("stats.txt", "a") as downloaded:
-                downloaded.write(url + '\n')
-                for l in links:
-                    downloaded.write(l + '\n') 
-                downloaded.write('\n')
-                for t in tba_links:
-                    downloaded.write(t + '\n') 
-    curUrl.save_data(len(tba_links), curUrl.get_total_word_count())
     scraperHelper.getICSSubDomains(url, len(tba_links))
+
+    # check if the site is low quality 
+    if checker.isLowQual(curUrl.get_total_word_count(), len(tba_links)):
+        return list()
+    
+    curUrl.save_data(len(tba_links), curUrl.get_total_word_count())  # save the data of sites that are valid
     return tba_links
 
 def extract_next_links(url, resp):
@@ -119,16 +117,16 @@ def is_valid(url):
             return False
         if len(parsed.query) > 50:  #long queries = bad 
             return False
-        if parsed.fragment or any(url.lower().count(a) for a in ("javascript:", "mailto:", ".bam", ".ff", ".php", ".war")): # bad endings
+        if parsed.fragment or any(url.lower().count(a) for a in ("javascript:", "mailto:", ".bam", ".ff", ".war", ".lif")): # bad endings
             return False
-        if url.lower().count("&do=media") and url.lower().count("doku.php"):
-            return False
+      #  if url.lower().count("&do=media") and url.lower().count("doku.php"):
+         #   return False
         if url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"): # links that are low content  (ics: attempts to download, stasio: links to ppts)
             return False
-      #  if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):  # in wics, there are many different ways to share a page but each query with share leads to the same page
-       #     return False
-        if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
+        if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):  # in wics, there are many different ways to share a page but each query with share leads to the same page
             return False
+     #   if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
+      #      return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -138,19 +136,13 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz"
-            + r"|javascript:void(0))$|sql|apk|war|ma", parsed.path.lower())
+            + r"|javascript:void(0)|sql|apk|war|ma)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
         raise
 
 
-def getHash(resp, tokens) -> str:
-    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
-    words = soup.find_all(text=True)
-
-    hashCode = simHash.generate_Fingerprint(tokens)
-    return hashCode
 
 
 """

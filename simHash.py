@@ -54,9 +54,9 @@ def generate_Fingerprint(token_Freq:dict):
 
 def calc_similarity(f1, f2) -> bool:
     """
-    threshold: 0.93
+    threshold: 0.94
     """
-    threshold = 0.93
+    threshold = 0.94
     
     assert len(f1) == len(f2), "Fingerprints are not same length"
 

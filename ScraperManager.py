@@ -4,7 +4,6 @@ import json
 import tokenizer
 from bs4 import BeautifulSoup
 import simHash
-from itertools import islice  #used to cut a dictionary
 from collections import defaultdict
 import json
 
@@ -52,8 +51,14 @@ class Manager:
             file.write(b"\n]")
 
     def _get_tokens(self):
-        soup = BeautifulSoup(self.resp.raw_response.content, "html.parser")
-        words = soup.find_all(text=True)
+        try:
+            soup = BeautifulSoup(self.resp.raw_response.content, "html.parser")
+            words = soup.find_all(text=True)
+        except RecursionError:
+            with open("fails.txt", "a") as fails:
+                fails.write("RECUR" + str(self.resp.url) + "\n")
+                fails.write("\n") 
+            return dict()           
 
         with open("websitecontents.txt", "w") as text: #write text content onto a file
             for w in words:
@@ -110,6 +115,7 @@ class CurrentData():
         #print("SIZE", len(self.visitedHashes))
         for h in self.visitedHash.union(self.problemHash):
             if simHash.calc_similarity(h, hashCode):
+
                 return True
 
         if len(self.visitedHash) > 1200:  # when crawler starts to slow down
@@ -163,16 +169,21 @@ class ResponseValidity():
         """
 
         if self.resp.raw_response.status_code in (301, 302): # check the status code of HTML obj to be safe
-            print("REDIRECT")
+            with open("fails.txt", "a") as fails:
+                fails.write("REDIRECT" + str(self.resp.geturl()) + "\n")
+                
             return self.resp.raw_response.headers['Location']  # learned how to access redirection on ChatGPT
         return False
 
-    def isLowQual(self, wordCount:int, min=100) -> bool:
+    def isLowQual(self, wordCount:int, scrapeCount:int, min=100) -> bool:
         """
-        Determines if a web response has low information based on its word count.
+        Determines if a web response has low information based on its word count
+        and based on its ratio of websites scraped to words.
         True: low quality, don't scrape
         """
-        return wordCount < min
+        if wordCount < min:
+            return True
+        return (scrapeCount / wordCount) >= 0.82
 
     def canCrawl(self) -> bool:
         """
