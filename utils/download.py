@@ -7,7 +7,7 @@ from utils.response import Response
 def download(url, config, logger=None):
     host, port = config.cache_server
     while True:
-        print("in loop")
+        #print("in loop")
         try:
             resp = requests.get(
                 f"http://{host}:{port}/",
@@ -15,7 +15,7 @@ def download(url, config, logger=None):
             break
         except requests.exceptions.RequestException as e:
             print("ERROR")
-    print("out")
+   # print("out")
     try:
         if resp and resp.content:
             return Response(cbor.loads(resp.content))

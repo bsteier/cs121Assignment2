@@ -24,6 +24,9 @@ def _generate_Hash(word:str) -> str:
     
 
 def generate_Fingerprint(token_Freq:dict):
+    """
+    Generates a fingerprint based on a token frequency dictionary.
+    """
     hash_dict = dict()
 
     # generating 12-bit hash values
@@ -54,6 +57,7 @@ def generate_Fingerprint(token_Freq:dict):
 
 def calc_similarity(f1, f2) -> bool:
     """
+    Calculates the similarity between two fingerprints.
     threshold: 0.94
     """
     threshold = 0.94

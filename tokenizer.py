@@ -21,9 +21,10 @@ def tokenize(filepath: Path) -> list[str]:
         return []
 
     with open(filepath, 'rb') as file: # checks if a file name is in binary
-        if b'\0' in file.read(): #b\0 is null byte which would indicate the file is binary
-            print("File is binary")
-            return []
+        for line in file:
+            if b'\0' in line: #b\0 is null byte which would indicate the file is binary
+                print("File is binary")
+                return []
         
     tokens = list()
 

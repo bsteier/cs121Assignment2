@@ -20,6 +20,14 @@ STOPWORDS = ['a', 'about', 'above', 'after', 'again', 'against', 'all', 'am', 'a
 
 
 class Manager:
+    """
+    Manager: handles additional functionality of the scraper
+    --> retrieves tokens from the html content
+    --> handles the frequency of words
+    --> writes to a json file incase the server crashes so we have our data saved
+
+    MOSTCOMMONWORDS: holds the most common words and their frequency
+    """
     MOSTCOMMONWORDS = defaultdict(int)
     def __init__(self, url, resp):
         self.resp = resp
@@ -29,7 +37,12 @@ class Manager:
         self.getMostCommonWords()
 
     def save_data(self, numOfLinks, wordCount):
-       # if parsed_url.netloc == "www.ics.uci.edu":
+        """
+        Writes to a JSON file a URL, number of scraped links, and number of words.
+        This provides an extra measure incase of a server crash.
+        Data is preserved in "saves.json"
+        """
+
         file_path = "saves.json"
 
         # Check if the file exists and initialize it with an empty JSON array if not
@@ -50,28 +63,39 @@ class Manager:
             file.write(json.dumps(url_data, indent=2).encode('utf-8'))
             file.write(b"\n]")
 
+
     def _get_tokens(self):
+        """
+        Gets tokens from html content using a tokenizer.
+        Returns a dictionary with the frequency of tokens.
+        """
         try:
             soup = BeautifulSoup(self.resp.raw_response.content, "html.parser")
             words = soup.find_all(text=True)
+         
+            with open("websitecontents.txt", "w") as text: #write text content onto a file
+                for w in words:
+                    if len(w.strip()) <= 1 or w in STOPWORDS:
+                        continue
+                    else:
+                        text.write(w.text)
+        
         except RecursionError:
             with open("fails.txt", "a") as fails:
                 fails.write("RECUR" + str(self.resp.url) + "\n")
                 fails.write("\n") 
-            return dict()           
-
-        with open("websitecontents.txt", "w") as text: #write text content onto a file
-            for w in words:
-                if len(w.strip()) <= 1 or w in STOPWORDS:
-                    continue
-                else:
-                    text.write(w.text)
+            return dict()  
         
         token_freq = tokenizer.computeWordFrequencies(tokenizer.tokenize("websitecontents.txt"))
         return token_freq
 
+
     def _get_hash(self):
+        """
+        Generates the hash of a URL based on the token frequencies
+        """
         return simHash.generate_Fingerprint(self.token_freq)
+
 
     def get_total_word_count(self):
         """
@@ -97,6 +121,12 @@ class Manager:
             json.dump(sortedDict, json_file)
 
 class CurrentData():
+    """
+    CurrentData: a class for storing data...
+    ---> stores a set of hashes of websites that we have visited
+    ------> this set is used to compare a hashCode of a site we are scraping (the set is reset after 1200 sites)
+    ---> contains a set of known problem sites that will always get compared against a hashCode
+    """
     problemHash = {'1100100110111000100110111011000011111001111000101101000000111010', '1000000100111010001110111010111101110001101110001000110000110000',
                     '1000000110010011001110101011101101101000001000100010000000100000',
                     '1001000100110010011100111000111011100001111100001011010000110000'}
@@ -112,7 +142,6 @@ class CurrentData():
         """
         Returns true if hashCode is similar to one we have previosly seen.
         """
-        #print("SIZE", len(self.visitedHashes))
         for h in self.visitedHash.union(self.problemHash):
             if simHash.calc_similarity(h, hashCode):
 

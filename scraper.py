@@ -13,6 +13,11 @@ import ScraperManager
 data = ScraperManager.CurrentData()
 
 def scraper(url, resp):
+    """
+    Decides to scrape the contents of a web page based on if it's valid, not similar to previous sites and has quality.
+    If the url is deemed similar, the similar site is written to a file "fails.txt"
+    If the url passes all checks, the site is scraped for hyperlinks and word content.
+    """
     checker = ScraperManager.ResponseValidity(resp)
     validity = checker.isValid()
     if type(validity) == str and is_valid(validity):
@@ -23,7 +28,8 @@ def scraper(url, resp):
     curUrl = ScraperManager.Manager(url, resp)
     scraperHelper.get_longest_page(url, curUrl.token_freq)
     scraperHelper.get_unique_pages()
-    
+        
+
     # compare hash similarities
     if data.compareHashSimilarity(curUrl.hashCode):
         with open("fails.txt", "a") as fails:
@@ -31,12 +37,11 @@ def scraper(url, resp):
 
         return list()
     
-    
     links = extract_next_links(url, resp)
                 
     tba_links = [link for link in links if is_valid(link)]  #list of links to be added to the Frontier
     scraperHelper.getICSSubDomains(url, len(tba_links))
-
+    
     # check if the site is low quality 
     if checker.isLowQual(curUrl.get_total_word_count(), len(tba_links)):
         return list()
@@ -64,6 +69,17 @@ def extract_next_links(url, resp):
     try:
         soup = BeautifulSoup(resp.raw_response.content, "html.parser")
         hyperlinks = soup.find_all("a", href=True)  # finds all elements w/ an href
+        
+        # composing our list of potential URLs
+        linksToAdd = list()
+        for link in set(hyperlinks):
+            if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
+                continue
+            else:  # convert
+                link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
+                if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
+                    linksToAdd.append(link2)
+
     except RecursionError:    # our beautiful soup object is not in html/cannot be read
         with open("fails.txt", "a") as fails:
             fails.write(str(url) + "\n")
@@ -71,18 +87,6 @@ def extract_next_links(url, resp):
             fails.write(str(resp.error) + "\n")
             fails.write("\n")
         return list()
-
-    # composing our list of potential URLs
-    linksToAdd = list()
-    for link in set(hyperlinks):
-        if urlparse(link['href']) == urlparse(url) or link['href'] in {"/"} or link['href'].startswith("mailto") or link['href'].startswith('#'): # avoid adding duplicates or invalid hrefs
-            continue
-        else:  # convert
-            link2 = scraperHelper.convertToAbsolute(resp.url, link['href'])   # convert relative URLs to absolute
-            if(link2 != parsed.geturl()):  # checks if the url we just created is the same as what we started with
-                linksToAdd.append(link2)
-
-
 
     return list(set(linksToAdd))    #removes websites that are duplicates before sending to the frontier
 
@@ -95,10 +99,9 @@ def is_valid(url):
         parsed = urlparse(url)
 
         
+        #urls that we cannot access or have bad content (ziv/ooad/intro_to_se)
         avoidUrls = {r"http://alumni.ics.uci.edu", r"http://fano.ics.uci.edu/", r"http://checkmate.ics.uci.edu", r"www.ics.uci.edu/ugrad/courses/listing.php", r"www.ics.uci.edu/~ziv/ooad/intro_to_se/",
         }
-                #r"swiki.ics.uci.edu/doku.php/projects:maint-spring-2018"} # websites that lead to a lot of links
-        # r"www.ics.uci.edu/Arcadia/Teamware/docs"
         if any(u in url for u in avoidUrls):
             return False
         if parsed.path: # check for repeated paths
@@ -107,7 +110,7 @@ def is_valid(url):
             visited = set()
             for token in p:
                 if token not in visited:
-                    if p.count(token) > 2:  #if a path part is repeated more tokens
+                    if p.count(token) > 2:  #if a path part is repeated more than twice, then we say the URL is invalid
                         return False
                     else:
                         visited.add(token) 
@@ -119,14 +122,10 @@ def is_valid(url):
             return False
         if parsed.fragment or any(url.lower().count(a) for a in ("javascript:", "mailto:", ".bam", ".ff", ".war", ".lif")): # bad endings
             return False
-      #  if url.lower().count("&do=media") and url.lower().count("doku.php"):
-         #   return False
         if url.count(r"www.ics.uci.edu/download") or url.count(r"~stasio/winter06/Lectures/"): # links that are low content  (ics: attempts to download, stasio: links to ppts)
             return False
         if parsed.netloc == "wics.ics.uci.edu" and parsed.query.startswith("share"):  # in wics, there are many different ways to share a page but each query with share leads to the same page
             return False
-     #   if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
-      #      return False
         return not re.match(
             r".*\.(r|css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -176,4 +175,9 @@ def is_valid(url):
             for link in tba_links:
                 ics.write(json.dumps({"url": link}) + "\n") # ics.write(link)
                 ics.flush() # ics.write("\n")
+
+      #  if url.lower().count("&do=media") and url.lower().count("doku.php"):
+         #   return False
+     #   if url.lower().count("https://archive.ics.uci.edu/ml/datasets.php") and parsed.query: #  queries take u to the same page for this site
+      #      return False
 """
